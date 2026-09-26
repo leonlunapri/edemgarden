@@ -537,3 +537,28 @@ footer {
     object-fit: cover;
     display: block;
 }
+
+/* ---------- LANGUAGE SWITCHER ---------- */
+
+.language-switcher {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    z-index: 1000;
+    display: flex;
+    gap: 6px;
+}
+
+.language-switcher button {
+    border: 1px solid rgba(255,255,255,.7);
+    background: rgba(0,0,0,.2);
+    color: white;
+    padding: 6px 9px;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.language-switcher button:hover {
+    background: rgba(255,255,255,.15);
+}
