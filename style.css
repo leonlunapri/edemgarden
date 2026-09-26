@@ -229,7 +229,15 @@ p {
 /* ---------- IMAGES ---------- */
 
 .family-image {
-    background-image: url("images/toula.jpg");
+    background:
+        linear-gradient(
+            rgba(182,94,60,.35),
+            rgba(182,94,60,.35)
+        ),
+        url("images/Entrance.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
 
 .lithos-image {
