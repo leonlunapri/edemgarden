@@ -1,0 +1,499 @@
+/* ========================================
+   EDEM GARDEN RESTAURANT
+   Main stylesheet
+   ======================================== */
+
+
+/* ---------- GENERAL ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #2d2a26;
+    background: #f8f5ef;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* ---------- TYPOGRAPHY ---------- */
+
+h1,
+h2,
+h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+}
+
+h2 {
+    font-size: clamp(2.7rem, 5vw, 4.5rem);
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.22em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.button {
+    display: inline-block;
+    padding: 14px 27px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+}
+
+.button-primary {
+    background: #b65e3c;
+    color: white;
+}
+
+.button-primary:hover {
+    background: #964a2d;
+    transform: translateY(-2px);
+}
+
+.button-secondary {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.button-secondary:hover {
+    background: white;
+    color: #2d2a26;
+}
+
+.button-outline {
+    border: 1px solid #b65e3c;
+    color: #b65e3c;
+}
+
+.button-outline:hover {
+    background: #b65e3c;
+    color: white;
+}
+
+
+/* ---------- HERO ---------- */
+
+.hero {
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.30),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+}
+
+.hero-overlay {
+    width: 100%;
+    padding: 40px 25px;
+}
+
+.hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    margin-bottom: 25px;
+}
+
+.hero-subtitle {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    line-height: 1.3;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+.section {
+    padding: 110px 25px;
+}
+
+.section-inner {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.section-inner > p {
+    max-width: 760px;
+}
+
+.intro {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6rem;
+    line-height: 1.45;
+    margin-bottom: 25px;
+}
+
+
+/* ---------- IMAGE SECTIONS ---------- */
+
+.image-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 650px;
+}
+
+.image-section.reverse {
+    direction: rtl;
+}
+
+.image-section.reverse .image-section-content {
+    direction: ltr;
+}
+
+.image-section-image {
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    background: #ebe4d6;
+}
+
+.image-section-content p {
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+
+/* ---------- IMAGES ---------- */
+
+.family-image {
+    background-image: url("images/toula.jpg");
+}
+
+.lithos-image {
+    background-image: url("images/lithos.jpg");
+}
+
+
+/* ---------- FOOD ---------- */
+
+.food-section {
+    background: #f8f5ef;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.food-card {
+    background: white;
+    overflow: hidden;
+}
+
+.food-image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.food-card h3 {
+    padding: 25px 25px 10px;
+}
+
+.food-card p {
+    padding: 0 25px 30px;
+}
+
+.macarounes-image {
+    background-image: url("images/macarounes.jpg");
+}
+
+.breakfast-image {
+    background-image: url("images/breakfast.jpg");
+}
+
+.garden-image {
+    background-image: url("images/garden.jpg");
+}
+
+
+/* ---------- QUOTE ---------- */
+
+.quote-section {
+    min-height: 500px;
+
+    background-image:
+        linear-gradient(
+            rgba(45, 42, 38, 0.45),
+            rgba(45, 42, 38, 0.45)
+        ),
+        url("images/garden.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+}
+
+.quote-content {
+    max-width: 850px;
+    padding: 40px;
+}
+
+.quote {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    line-height: 1.15;
+}
+
+.quote-author {
+    margin-top: 25px;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+}
+
+
+/* ---------- VISIT ---------- */
+
+.visit-section {
+    text-align: center;
+}
+
+.visit-section .section-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visit-section .intro {
+    margin-bottom: 45px;
+}
+
+.visit-details {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.visit-details h3 {
+    margin-bottom: 10px;
+}
+
+.visit-details a {
+    text-decoration: none;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* ---------- LITHOS HOUSE ---------- */
+
+#lithos-house {
+    background: #ebe4d6;
+}
+
+
+/* ---------- SOCIAL ---------- */
+
+.social-section {
+    padding: 100px 25px;
+    text-align: center;
+    background: #5e6b3d;
+    color: white;
+}
+
+.social-section .button-outline {
+    border-color: white;
+    color: white;
+}
+
+.social-section .button-outline:hover {
+    background: white;
+    color: #5e6b3d;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: #2d2a26;
+    color: white;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.footer-inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-inner h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.footer-inner a {
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    opacity: 0.55;
+    font-size: 0.75rem;
+    margin-top: 30px;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .section {
+        padding: 80px 22px;
+    }
+
+    .image-section,
+    .image-section.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+
+    .image-section-image {
+        min-height: 450px;
+    }
+
+    .image-section-content {
+        padding: 65px 25px;
+    }
+
+    .food-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .food-image {
+        height: 280px;
+    }
+
+    .visit-details {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero {
+        min-height: 90vh;
+    }
+
+}
+
+
+/* ---------- SMALL PHONES ---------- */
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 3.4rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .button {
+        text-align: center;
+    }
+
+}
