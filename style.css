@@ -494,6 +494,135 @@ footer {
 }
 
 
+/* ---------- THE OLYMPUS VILLAGE ---------- */
+
+.olympus-section {
+    padding: 110px 25px;
+    background: #ebe4d6;
+}
+
+.olympus-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.olympus-gallery img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ---------- LANGUAGE SWITCHER ---------- */
+
+.language-switcher {
+    position: fixed;
+    top: 22px;
+    right: 24px;
+    z-index: 2000;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    padding: 5px;
+
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 30px;
+
+    background: rgba(0,0,0,.28);
+    backdrop-filter: blur(8px);
+}
+
+.language-switcher button {
+    border: none;
+    background: transparent;
+    color: rgba(255,255,255,.85);
+
+    padding: 7px 10px;
+    margin: 0;
+
+    border-radius: 20px;
+
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .08em;
+
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.language-switcher button:hover {
+    background: rgba(255,255,255,.15);
+    color: white;
+}
+
+.language-switcher button[data-lang="en"] {
+    background: rgba(255,255,255,.18);
+    color: white;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .section {
+        padding: 80px 22px;
+    }
+
+    .image-section,
+    .image-section.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+
+    .image-section-image {
+        min-height: 450px;
+    }
+
+    .image-section-content {
+        padding: 65px 25px;
+    }
+
+    .food-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .food-image {
+        height: 280px;
+    }
+
+    .visit-details {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero {
+        min-height: 90vh;
+    }
+
+    .olympus-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .olympus-gallery img {
+        height: 300px;
+    }
+
+    .language-switcher {
+        top: 15px;
+        right: 15px;
+    }
+
+}
+
+
 /* ---------- SMALL PHONES ---------- */
 
 @media (max-width: 480px) {
@@ -515,76 +644,14 @@ footer {
         text-align: center;
     }
 
-}
+    .language-switcher {
+        top: 12px;
+        right: 12px;
+    }
 
-   /* ---------- THE OLYMPUS VILLAGE ---------- */
-   
-   .olympus-section {
-       padding: 110px 25px;
-       background: #ebe4d6;
-   }
-   
-   .olympus-gallery {
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       gap: 20px;
-       margin-top: 45px;
-   }
-   
-   .olympus-gallery img {
-       width: 100%;
-       height: 340px;
-       object-fit: cover;
-       display: block;
-   }
-}
+    .language-switcher button {
+        padding: 6px 8px;
+        font-size: 10px;
+    }
 
-      /* ---------- LANGUAGE SWITCHER ---------- */
-      
-      .language-switcher {
-          position: fixed;
-          top: 22px;
-          right: 24px;
-          z-index: 2000;
-      
-          display: flex;
-          align-items: center;
-          gap: 4px;
-      
-          padding: 5px;
-          border: 1px solid rgba(255,255,255,.35);
-          border-radius: 30px;
-      
-          background: rgba(0,0,0,.28);
-          backdrop-filter: blur(8px);
-      }
-      
-      .language-switcher button {
-          border: none;
-          background: transparent;
-          color: rgba(255,255,255,.85);
-      
-          padding: 7px 10px;
-          margin: 0;
-      
-          border-radius: 20px;
-      
-          font-family: inherit;
-          font-size: 11px;
-          font-weight: 600;
-          letter-spacing: .08em;
-      
-          cursor: pointer;
-          transition: all .25s ease;
-      }
-      
-      .language-switcher button:hover {
-          background: rgba(255,255,255,.15);
-          color: white;
-      }
-      
-      .language-switcher button[data-lang="en"] {
-          background: rgba(255,255,255,.18);
-          color: white;
-      }
 }
