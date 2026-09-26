@@ -483,32 +483,32 @@ footer {
         min-height: 90vh;
     }
 
-       .olympus-gallery {
+       .olympos-gallery {
         grid-template-columns: 1fr;
     }
 
-    .olympus-gallery img {
+    .olympos-gallery img {
         height: 300px;
     }
 
 }
 
 
-/* ---------- THE OLYMPUS VILLAGE ---------- */
+/* ---------- THE OLYMPOS VILLAGE ---------- */
 
-.olympus-section {
+.olympos-section {
     padding: 110px 25px;
     background: #ebe4d6;
 }
 
-.olympus-gallery {
+.olympos-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 45px;
 }
 
-.olympus-gallery img {
+.olympos-gallery img {
     width: 100%;
     height: 340px;
     object-fit: cover;
@@ -607,11 +607,11 @@ footer {
         min-height: 90vh;
     }
 
-    .olympus-gallery {
+    .olympos-gallery {
         grid-template-columns: 1fr;
     }
 
-    .olympus-gallery img {
+    .olympos-gallery img {
         height: 300px;
     }
 
