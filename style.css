@@ -471,6 +471,25 @@ p {
     background: #ebe4d6;
 }
 
+.lithos-details {
+    display: flex;
+    gap: 60px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.lithos-details h3 {
+    margin-bottom: 10px;
+}
+
+.lithos-details a {
+    text-decoration: none;
+}
+
+.lithos-buttons {
+    margin-bottom: 60px;
+}
+
 .lithos-gallery-group {
     margin-top: 55px;
 }
@@ -675,6 +694,23 @@ footer {
     .visit-photo img {
         height: 300px;
     }
+
+       .visit-photo img {
+        height: 300px;
+    }
+
+    .lithos-details {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .lithos-buttons {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
 }
 
 /* ---------- THE OLYMPOS VILLAGE ---------- */
