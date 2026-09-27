@@ -614,7 +614,14 @@ footer {
     .restaurant-text {
         overflow: hidden;
     }
+     .dishes-grid {
+     grid-template-columns: 1fr;
+     gap: 20px;
+    }
 
+    .dish-image {
+     height: 220px;
+    }
    
 }
 
