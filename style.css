@@ -349,6 +349,13 @@ p {
     font-size: 2rem;
 }
 
+.dishes-subtitle {
+    max-width: 550px;
+    margin: 15px auto 0;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
 .dishes-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
