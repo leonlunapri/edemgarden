@@ -812,6 +812,12 @@ footer {
     display: block;
 }
 
+@media (max-width: 800px) {
+    .olympos-section {
+        padding: 80px 22px;
+    }
+}
+
 
 /* ---------- LANGUAGE SWITCHER ---------- */
 
