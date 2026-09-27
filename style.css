@@ -543,7 +543,12 @@ footer {
             "full";
         gap: 25px;
     }
-
+   
+        .restaurant-text {
+        width: 100%;
+        max-width: none;
+    }
+   
     .restaurant-photos {
         flex-direction: row;
     }
