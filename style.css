@@ -206,6 +206,10 @@ p {
     display: block;
 }
 
+.mobile-float-photo {
+    display: none;
+}
+
 /* ---------- SECTIONS ---------- */
 
 .section {
