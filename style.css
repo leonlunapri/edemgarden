@@ -434,7 +434,7 @@ p {
 
 .visit-layout {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: 60px;
     align-items: center;
 }
@@ -465,6 +465,17 @@ p {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+}
+
+.visit-text .action-buttons {
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.visit-text .action-buttons .button {
+    padding: 14px 18px;
+    font-size: 0.8rem;
+    white-space: nowrap;
 }
 
 .visit-photo img {
