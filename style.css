@@ -728,6 +728,19 @@ footer {
         margin-bottom: 40px;
     }
 
+       .lithos-top-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .lithos-text {
+        text-align: center;
+    }
+
+    .lithos-photo img {
+        height: 280px;
+    }
+
 }
 
 /* ---------- THE OLYMPOS VILLAGE ---------- */
