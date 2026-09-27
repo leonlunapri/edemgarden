@@ -266,6 +266,9 @@ p {
 .image-section-content p {
     max-width: 550px;
     margin-bottom: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6rem;
+    line-height: 1.45;
 }
 
 
