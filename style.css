@@ -543,6 +543,10 @@ p {
     break-inside: avoid;
 }
 
+.masonry-item:last-child {
+    margin-bottom: 0;
+}
+
 /* ---------- SOCIAL ---------- */
 
 .social-section {
@@ -782,6 +786,10 @@ footer {
     .lithos-photo img {
         height: 280px;
         object-fit: cover;
+    }
+   
+       #lithos-house {
+        padding-bottom: 40px;
     }
 
 }
