@@ -465,6 +465,26 @@ p {
     background: #ebe4d6;
 }
 
+.lithos-gallery-group {
+    margin-top: 55px;
+}
+
+.lithos-gallery-title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.masonry-gallery {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.masonry-item {
+    width: 100%;
+    margin-bottom: 20px;
+    break-inside: avoid;
+}
 
 /* ---------- SOCIAL ---------- */
 
@@ -621,8 +641,11 @@ footer {
 
     .dish-image {
      height: 220px;
+       
     }
-   
+        .masonry-gallery {
+        column-count: 2;
+    }
 }
 
 /* ---------- THE OLYMPOS VILLAGE ---------- */
@@ -727,6 +750,10 @@ footer {
     .language-switcher button {
         padding: 6px 8px;
         font-size: 10px;
+    }
+   
+        .masonry-gallery {
+        column-count: 1;
     }
 
 }
