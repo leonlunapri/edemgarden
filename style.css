@@ -620,6 +620,10 @@ footer {
     .section {
         padding: 80px 22px;
     }
+   
+       .olympos-section {
+        padding: 80px 22px;
+    }
 
     .image-section,
     .image-section.reverse {
