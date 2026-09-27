@@ -336,6 +336,48 @@ p {
     background-image: url("images/loukoumades.jpg");
 }
 
+.dishes-intro {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dishes-intro h3 {
+    font-size: 2rem;
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.dish-card {
+    background: white;
+    overflow: hidden;
+}
+
+.dish-image {
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dish-card h4 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 15px 18px 5px;
+}
+
+.dish-card p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    padding: 0 18px 20px;
+    opacity: 0.85;
+}
+
 /* ---------- QUOTE ---------- */
 
 .quote-section {
