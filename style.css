@@ -3,12 +3,6 @@
    Main stylesheet
    ======================================== */
 
-/* ---------- FORCE LIGHT MODE ---------- */
-
-:root {
-    color-scheme: light;
-}
-
 /* ---------- GENERAL ---------- */
 
 * {
