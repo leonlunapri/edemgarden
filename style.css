@@ -422,24 +422,24 @@ p {
 
 /* ---------- VISIT ---------- */
 
-.visit-section {
-    text-align: center;
-}
-
-.visit-section .section-inner {
-    display: flex;
-    flex-direction: column;
+.visit-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
     align-items: center;
 }
 
-.visit-section .intro {
+.visit-text {
+    text-align: left;
+}
+
+.visit-text .intro {
     margin-bottom: 45px;
 }
 
 .visit-details {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    gap: 60px;
     margin-bottom: 40px;
 }
 
@@ -454,8 +454,14 @@ p {
 .action-buttons {
     display: flex;
     gap: 15px;
-    justify-content: center;
     flex-wrap: wrap;
+}
+
+.visit-photo img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
 }
 
 
@@ -645,6 +651,29 @@ footer {
     }
         .masonry-gallery {
         column-count: 2;
+    }
+
+       .visit-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .visit-text {
+        text-align: center;
+    }
+
+    .visit-details {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .action-buttons {
+        justify-content: center;
+    }
+
+    .visit-photo img {
+        height: 300px;
     }
 }
 
