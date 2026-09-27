@@ -482,7 +482,7 @@ footer {
         min-height: 90vh;
     }
 
-       .olympos-gallery {
+    .olympos-gallery {
         grid-template-columns: 1fr;
     }
 
@@ -490,8 +490,12 @@ footer {
         height: 300px;
     }
 
-}
+    .language-switcher {
+        top: 15px;
+        right: 15px;
+    }
 
+}
 
 /* ---------- THE OLYMPOS VILLAGE ---------- */
 
@@ -563,62 +567,6 @@ footer {
 .language-switcher button[data-lang="en"] {
     background: rgba(255,255,255,.18);
     color: white;
-}
-
-
-/* ---------- MOBILE ---------- */
-
-@media (max-width: 800px) {
-
-    .section {
-        padding: 80px 22px;
-    }
-
-    .image-section,
-    .image-section.reverse {
-        grid-template-columns: 1fr;
-        direction: ltr;
-    }
-
-    .image-section-image {
-        min-height: 450px;
-    }
-
-    .image-section-content {
-        padding: 65px 25px;
-    }
-
-    .food-grid {
-        grid-template-columns: 1fr;
-        gap: 35px;
-    }
-
-    .food-image {
-        height: 280px;
-    }
-
-    .visit-details {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .hero {
-        min-height: 90vh;
-    }
-
-    .olympos-gallery {
-        grid-template-columns: 1fr;
-    }
-
-    .olympos-gallery img {
-        height: 300px;
-    }
-
-    .language-switcher {
-        top: 15px;
-        right: 15px;
-    }
-
 }
 
 
