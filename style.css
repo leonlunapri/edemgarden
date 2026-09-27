@@ -554,15 +554,23 @@ footer {
     }
    
     .restaurant-photos {
-        flex-direction: row;
-    }
-
-    .restaurant-photos img {
-        height: 180px;
+        display: none;
     }
 
     .restaurant-photo-full img {
         height: 250px;
+    }
+
+    .mobile-float-photo {
+        display: block;
+        float: right;
+        width: 45%;
+        height: auto;
+        margin: 0 0 15px 15px;
+    }
+
+    .restaurant-text {
+        overflow: hidden;
     }
 
    
