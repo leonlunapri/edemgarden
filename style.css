@@ -555,6 +555,10 @@ p {
     color: white;
 }
 
+.social-section .button {
+    margin-top: 20px;
+}
+
 .social-section .button-outline {
     border-color: white;
     color: white;
