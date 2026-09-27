@@ -534,7 +534,29 @@ footer {
         top: 15px;
         right: 15px;
     }
+   
+    .restaurant-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "text"
+            "photos"
+            "full";
+        gap: 25px;
+    }
 
+    .restaurant-photos {
+        flex-direction: row;
+    }
+
+    .restaurant-photos img {
+        height: 180px;
+    }
+
+    .restaurant-photo-full img {
+        height: 250px;
+    }
+
+   
 }
 
 /* ---------- THE OLYMPOS VILLAGE ---------- */
