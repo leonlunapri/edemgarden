@@ -713,6 +713,12 @@ footer {
     }
 
     .visit-text {
+        text-align: left;
+    }
+
+    .visit-details,
+    .visit-details h3,
+    .visit-details p {
         text-align: center;
     }
 
@@ -760,6 +766,12 @@ footer {
     }
 
     .lithos-text {
+        text-align: left;
+    }
+
+    .lithos-details,
+    .lithos-details h3,
+    .lithos-details p {
         text-align: center;
     }
 
