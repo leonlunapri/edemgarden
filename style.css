@@ -296,10 +296,6 @@ p {
     background: rgba(182, 94, 60, .35);
 }
 
-.lithos-image {
-    background-image: url("images/lithos.jpg");
-}
-
 
 /* ---------- FOOD ---------- */
 
@@ -545,11 +541,6 @@ p {
     margin-top: 55px;
 }
 
-.lithos-gallery-title {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
 
 .masonry-gallery {
     column-count: 3;
