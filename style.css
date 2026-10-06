@@ -196,7 +196,7 @@ p {
 
 .restaurant-photos img {
     width: 100%;
-    height: 480px;
+    height: 600px;
     object-fit: cover;
     display: block;
 }
