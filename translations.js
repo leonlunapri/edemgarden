@@ -124,6 +124,7 @@ const translations = {
         "social.text": "Discover our latest photos, news and updates.",
         "social.facebook": "Facebook",
         "social.instagram": "Instagram",
+        "social.tripadvisor.alt": "Tripadvisor award received by Edem Garden Restaurant",
 
         "footer.title": "Edem Garden Restaurant",
         "footer.text": "Traditional homemade Greek food<br>Olympos · Karpathos · Greece",
@@ -257,6 +258,7 @@ const translations = {
         "social.text": "Scopri le nostre ultime foto, novità e aggiornamenti.",
         "social.facebook": "Facebook",
         "social.instagram": "Instagram",
+        "social.tripadvisor.alt": "Premio Tripadvisor ricevuto dal ristorante Edem Garden",
 
         "footer.title": "Edem Garden Restaurant",
         "footer.text": "Cucina greca tradizionale fatta in casa<br>Olympos · Karpathos · Grecia",
@@ -390,6 +392,7 @@ const translations = {
         "social.text": "Découvrez nos dernières photos, actualités et mises à jour.",
         "social.facebook": "Facebook",
         "social.instagram": "Instagram",
+        "social.tripadvisor.alt": "Prix Tripadvisor reçu par le restaurant Edem Garden",
 
         "footer.title": "Edem Garden Restaurant",
         "footer.text": "Cuisine grecque traditionnelle faite maison<br>Olympos · Karpathos · Grèce",
@@ -523,6 +526,7 @@ const translations = {
         "social.text": "Ανακαλύψτε τις τελευταίες μας φωτογραφίες, νέα και ενημερώσεις.",
         "social.facebook": "Facebook",
         "social.instagram": "Instagram",
+        "social.tripadvisor.alt": "Βραβείο Tripadvisor που έλαβε το εστιατόριο Edem Garden",
     
         "footer.title": "Edem Garden Restaurant",
         "footer.text": "Παραδοσιακή σπιτική ελληνική κουζίνα<br>Όλυμπος · Κάρπαθος · Ελλάδα",
