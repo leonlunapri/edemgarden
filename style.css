@@ -896,6 +896,10 @@ footer {
     transition: all .25s ease;
 }
 
+.language-switcher .flag {
+    font-size: 11px;
+}
+
 .language-switcher button:hover {
     background: rgba(255,255,255,.15);
     color: white;
