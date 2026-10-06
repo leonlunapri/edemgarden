@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Edem Garden Restaurant | Olympos, Karpathos</title>
 
     <meta name="description"
@@ -67,20 +67,18 @@
         ]
     }
     </script>
-    
+
 </head>
 
 <body>
-    
-<div class="language-switcher" aria-label="Choose language">
 
+<div class="language-switcher" aria-label="Choose language">
     <button type="button" data-lang="en">EN</button>
     <button type="button" data-lang="gr">GR</button>
     <button type="button" data-lang="it">IT</button>
     <button type="button" data-lang="fr">FR</button>
-    
 </div>
-        
+
     <!-- HERO -->
 
     <header class="hero">
@@ -89,22 +87,22 @@
 
             <div class="hero-content">
 
-                <p class="eyebrow">OLYMPOS · KARPATHOS · GREECE</p>
+                <p class="eyebrow" data-i18n="hero.eyebrow">OLYMPOS · KARPATHOS · GREECE</p>
 
-                <h1>Edem Garden<br>Restaurant</h1>
+                <h1 data-i18n="hero.title">Edem Garden<br>Restaurant</h1>
 
-                <p class="hero-subtitle">
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
                     Traditional homemade Greek food<br>
                     in the heart of Karpathos
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#restaurant" class="button button-primary">
+                    <a href="#restaurant" class="button button-primary" data-i18n="hero.button.discover">
                         Discover Edem Garden
                     </a>
 
-                    <a href="#lithos-house" class="button button-secondary">
+                    <a href="#lithos-house" class="button button-secondary" data-i18n="hero.button.stay">
                         Stay nearby: Lithos House
                     </a>
 
@@ -115,7 +113,7 @@
         </div>
 
     </header>
-   
+
 <main>
 
   <!-- RESTAURANT -->
@@ -126,21 +124,22 @@
 
         <div class="restaurant-text">
 
-            <p class="eyebrow">A FAMILY TAVERNA</p>
+            <p class="eyebrow" data-i18n="restaurant.eyebrow">A FAMILY TAVERNA</p>
 
-            <h2>Welcome to Edem Garden</h2>
-            
+            <h2 data-i18n="restaurant.title">Welcome to Edem Garden</h2>
+
              <img loading="lazy" src="images/tula-popi.jpg"
              alt="Tula and her daughter Popi at Edem Garden"
+             data-i18n-alt="restaurant.photo.alt"
              class="mobile-float-photo">
 
-            <p class="intro">
+            <p class="intro" data-i18n="restaurant.intro">
                 Edem Garden is a family taverna in Olympos, Karpathos,
                 offering fresh traditional homemade food in a peaceful
                 terrace surrounded by flowers, plants and mountain views.
             </p>
 
-            <p>
+            <p data-i18n="restaurant.text">
                 Tula is the owner of the restaurant and her daughter
                 Popi welcomes guests in the dining room and terrace. Here, traditional
                 recipes, local ingredients and a relaxed atmosphere come
@@ -151,13 +150,13 @@
 
         <div class="restaurant-photos">
 
-            <img loading="lazy" src="images/tula-popi.jpg" alt="Tula and her daughter Popi at Edem Garden">
+            <img loading="lazy" src="images/tula-popi.jpg" alt="Tula and her daughter Popi at Edem Garden" data-i18n-alt="restaurant.photo.alt">
 
         </div>
 
         <div class="restaurant-photo-full">
 
-            <img loading="lazy" src="images/esterno-1.jpg" alt="Exterior view of Edem Garden Restaurant">
+            <img loading="lazy" src="images/esterno-1.jpg" alt="Exterior view of Edem Garden Restaurant" data-i18n-alt="restaurant.exterior.alt">
 
         </div>
 
@@ -171,22 +170,22 @@
         <section class="image-section">
 
             <div class="image-section-image family-image">
-                <img loading="lazy" src="images/ingresso-1.jpg" alt="Entrance to Edem Garden Restaurant in Olympos">
+                <img loading="lazy" src="images/ingresso-1.jpg" alt="Entrance to Edem Garden Restaurant in Olympos" data-i18n-alt="family.entrance.alt">
             </div>
 
             <div class="image-section-content">
 
-                <p class="eyebrow">THE STORY BEHIND THE NAME</p>
+                <p class="eyebrow" data-i18n="family.eyebrow">THE STORY BEHIND THE NAME</p>
 
-                <h2>Edem Garden</h2>
+                <h2 data-i18n="family.title">Edem Garden</h2>
 
-                <p>
+                <p data-i18n="family.text1">
                     The restaurant is in a beautiful terrace surrounded by flowers and plants, 
                     offering a breathtaking view of the mountains and the traditional village of Olympos. 
                     It is a peaceful place to enjoy a meal, a breakfast or simply relax with a greek coffee and take in the scenery.
                 </p>
 
-                <p>
+                <p data-i18n="family.text2">
                     Come for the food. Stay for the view, the terrace and the
                     warm family atmosphere.
                 </p>
@@ -202,11 +201,11 @@
 
             <div class="section-inner">
 
-                <p class="eyebrow">TRADITIONAL KARPATHIAN FOOD</p>
+                <p class="eyebrow" data-i18n="food.eyebrow">TRADITIONAL KARPATHIAN FOOD</p>
 
-                <h2>Fresh. Homemade. Local.</h2>
+                <h2 data-i18n="food.title">Fresh. Homemade. Local.</h2>
 
-                <p class="intro">
+                <p class="intro" data-i18n="food.intro">
                     Our kitchen focuses on traditional homemade food,
                     prepared with the simple flavours and ingredients of
                     Greek island cooking.
@@ -216,8 +215,8 @@
 
                     <article class="food-card">
                         <div class="food-image macarounes-image"></div>
-                        <h3>Traditional Recipes</h3>
-                        <p>
+                        <h3 data-i18n="food.card1.title">Traditional Recipes</h3>
+                        <p data-i18n="food.card1.text">
                             Discover authentic dishes inspired by the culinary
                             traditions of Karpathos.
                         </p>
@@ -225,8 +224,8 @@
 
                     <article class="food-card">
                         <div class="food-image breakfast-image"></div>
-                        <h3>Breakfast & Coffee</h3>
-                        <p>
+                        <h3 data-i18n="food.card2.title">Breakfast & Coffee</h3>
+                        <p data-i18n="food.card2.text">
                             Start your day with a fresh breakfast or enjoy a
                             hot or cold coffee surrounded by nature.
                         </p>
@@ -234,8 +233,8 @@
 
                     <article class="food-card">
                        <div class="food-image loukoumades-image"></div>
-                       <h3>Homemade Desserts</h3>
-                       <p>
+                       <h3 data-i18n="food.card3.title">Homemade Desserts</h3>
+                       <p data-i18n="food.card3.text">
                           Traditional Greek sweets prepared with the same homemade philosophy.
                        </p>
                     </article>
@@ -243,111 +242,111 @@
                 </div>
 
                     <div class="dishes-intro">
-                        <p class="eyebrow">FROM OUR KITCHEN</p>
-                        <h3>A Taste of Our Menu</h3>
-                        <p class="dishes-subtitle">
+                        <p class="eyebrow" data-i18n="dishes.eyebrow">FROM OUR KITCHEN</p>
+                        <h3 data-i18n="dishes.title">A Taste of Our Menu</h3>
+                        <p class="dishes-subtitle" data-i18n="dishes.subtitle">
                             Here is a selection of our most loved dishes — but our kitchen has
                             much more to offer, from fine local wines to creamy Greek yogurt
                             and honey from local producers.
                         </p>
                     </div>
-                                    
+
                 <div class="dishes-grid">
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/makarounes-2.jpg" alt="Makarounes, traditional Karpathian handmade pasta" class="dish-image">
-                        <h4>Makarounes</h4>
-                        <p>Handmade pasta, a Karpathian speciality, tossed with caramelized onions and local cheese.</p>
+                        <img loading="lazy" src="images/makarounes-2.jpg" alt="Makarounes, traditional Karpathian handmade pasta" data-i18n-alt="dish.makarounes.alt" class="dish-image">
+                        <h4 data-i18n="dish.makarounes.title">Makarounes</h4>
+                        <p data-i18n="dish.makarounes.text">Handmade pasta, a Karpathian speciality, tossed with caramelized onions and local cheese.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/moussaka.jpg" alt="Moussaka, traditional Greek baked dish" class="dish-image">
-                        <h4>Moussaka</h4>
-                        <p>Layers of potato, eggplant and minced meat, baked with a creamy béchamel topping.</p>
+                        <img loading="lazy" src="images/moussaka.jpg" alt="Moussaka, traditional Greek baked dish" data-i18n-alt="dish.moussaka.alt" class="dish-image">
+                        <h4 data-i18n="dish.moussaka.title">Moussaka</h4>
+                        <p data-i18n="dish.moussaka.text">Layers of potato, eggplant and minced meat, baked with a creamy béchamel topping.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/souvlaki.jpg" alt="Souvlaki, grilled Greek meat skewers" class="dish-image">
-                        <h4>Souvlaki</h4>
-                        <p>Grilled skewers of marinated meat, served with fresh bread and tzatziki.</p>
+                        <img loading="lazy" src="images/souvlaki.jpg" alt="Souvlaki, grilled Greek meat skewers" data-i18n-alt="dish.souvlaki.alt" class="dish-image">
+                        <h4 data-i18n="dish.souvlaki.title">Souvlaki</h4>
+                        <p data-i18n="dish.souvlaki.text">Grilled skewers of marinated meat, served with fresh bread and tzatziki.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/greek-salad-1.jpg" alt="Traditional Greek salad with feta and olives" class="dish-image">
-                        <h4>Greek Salad</h4>
-                        <p>Ripe tomatoes, cucumber, olives and feta, dressed simply with olive oil and oregano.</p>
+                        <img loading="lazy" src="images/greek-salad-1.jpg" alt="Traditional Greek salad with feta and olives" data-i18n-alt="dish.salad.alt" class="dish-image">
+                        <h4 data-i18n="dish.salad.title">Greek Salad</h4>
+                        <p data-i18n="dish.salad.text">Ripe tomatoes, cucumber, olives and feta, dressed simply with olive oil and oregano.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/aubergines.jpg" alt="Stuffed aubergines, a Karpathian speciality" class="dish-image">
-                        <h4>Stuffed Aubergines</h4>
-                        <p>Eggplants baked with tomato, herbs and cheese, a rustic island favourite.</p>
+                        <img loading="lazy" src="images/aubergines.jpg" alt="Stuffed aubergines, a Karpathian speciality" data-i18n-alt="dish.aubergines.alt" class="dish-image">
+                        <h4 data-i18n="dish.aubergines.title">Stuffed Aubergines</h4>
+                        <p data-i18n="dish.aubergines.text">Eggplants baked with tomato, herbs and cheese, a rustic island favourite.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/stuffed.jpg" alt="Stuffed tomatoes and peppers, Greek homemade dish" class="dish-image">
-                        <h4>Stuffed Tomatoes & Peppers</h4>
-                        <p>Tomatoes and peppers filled with rice, herbs and a touch of mint, oven-baked.</p>
+                        <img loading="lazy" src="images/stuffed.jpg" alt="Stuffed tomatoes and peppers, Greek homemade dish" data-i18n-alt="dish.stuffed.alt" class="dish-image">
+                        <h4 data-i18n="dish.stuffed.title">Stuffed Tomatoes & Peppers</h4>
+                        <p data-i18n="dish.stuffed.text">Tomatoes and peppers filled with rice, herbs and a touch of mint, oven-baked.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/zucchini.jpg" alt="Stuffed zucchini flowers filled with rice" class="dish-image">
-                        <h4>Zucchini Flowers</h4>
-                        <p>Zucchini flowers filled with rice and herbs, a delicate homemade speciality.</p>
+                        <img loading="lazy" src="images/zucchini.jpg" alt="Stuffed zucchini flowers filled with rice" data-i18n-alt="dish.zucchini.alt" class="dish-image">
+                        <h4 data-i18n="dish.zucchini.title">Zucchini Flowers</h4>
+                        <p data-i18n="dish.zucchini.text">Zucchini flowers filled with rice and herbs, a delicate homemade speciality.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/loukoumades.jpg" alt="Loukoumades, traditional Greek honey puffs" class="dish-image">
-                        <h4>Loukoumades</h4>
-                        <p>Warm honey puffs, dusted with cinnamon, a traditional homemade dessert.</p>
+                        <img loading="lazy" src="images/loukoumades.jpg" alt="Loukoumades, traditional Greek honey puffs" data-i18n-alt="dish.loukoumades.alt" class="dish-image">
+                        <h4 data-i18n="dish.loukoumades.title">Loukoumades</h4>
+                        <p data-i18n="dish.loukoumades.text">Warm honey puffs, dusted with cinnamon, a traditional homemade dessert.</p>
                     </article>
-                
+
                     <article class="dish-card">
-                        <img loading="lazy" src="images/baklava.jpg" alt="Baklava, traditional Greek pastry with honey and walnuts" class="dish-image">
-                        <h4>Baklava</h4>
-                        <p>Layers of crisp filo pastry, walnuts and honey syrup, a classic Greek sweet.</p>
+                        <img loading="lazy" src="images/baklava.jpg" alt="Baklava, traditional Greek pastry with honey and walnuts" data-i18n-alt="dish.baklava.alt" class="dish-image">
+                        <h4 data-i18n="dish.baklava.title">Baklava</h4>
+                        <p data-i18n="dish.baklava.text">Layers of crisp filo pastry, walnuts and honey syrup, a classic Greek sweet.</p>
                     </article>
-                
+
                 </div>
-                
+
             </div>
 
         </section>
-        
+
         <!-- OLYMPOS VILLAGE -->
-        
+
         <section class="olympos-section">
-        
+
             <div class="section-inner">
-        
-                <p class="eyebrow">THE OLYMPOS VILLAGE</p>
-        
-                <h2>A breathtaking view of Olympos</h2>
-        
-                <p class="intro">
+
+                <p class="eyebrow" data-i18n="olympos.eyebrow">THE OLYMPOS VILLAGE</p>
+
+                <h2 data-i18n="olympos.title">A breathtaking view of Olympos</h2>
+
+                <p class="intro" data-i18n="olympos.intro">
                     Olympos offers breathtaking panoramas in every direction: from the east, where 
                     a small untouched valley stretches out beneath the mountains, to the west, where 
                     the sea seems to disappear into the horizon, creating the perfect setting for spectacular sunsets.
                 </p>
-        
+
                 <div class="olympos-gallery">
-    
+
                 <img loading="lazy" src="images/vista-1.jpg"
-                     alt="Overview of the Olympos village at sunset">
-    
+                     alt="Overview of the Olympos village at sunset" data-i18n-alt="olympos.img1.alt">
+
                 <img loading="lazy" src="images/vista-2.jpg"
-                     alt="Olympos village and mountains seen from the above">
-    
+                     alt="Olympos village and mountains seen from the above" data-i18n-alt="olympos.img2.alt">
+
                 <img loading="lazy" src="images/vista-4.jpg"
-                     alt="Mountain landscape around Olympos, Karpathos">
+                     alt="Mountain landscape around Olympos, Karpathos" data-i18n-alt="olympos.img3.alt">
 
                 <img loading="lazy" src="images/windmill.jpg"
-                     alt="Traditional windmill near Olympos, Karpathos">
-    
+                     alt="Traditional windmill near Olympos, Karpathos" data-i18n-alt="olympos.img4.alt">
+
             </div>
-    
+
         </div>
-    
+
     </section>
 
         <!-- EXPERIENCE -->
@@ -356,12 +355,12 @@
 
             <div class="quote-content">
 
-                <p class="quote">
+                <p class="quote" data-i18n="quote.text">
                     “Fresh traditional homemade food,
                     a beautiful view and a relaxing terrace.”
                 </p>
 
-                <p class="quote-author">
+                <p class="quote-author" data-i18n="quote.author">
                     — The Edem Garden family
                 </p>
 
@@ -373,34 +372,34 @@
 <!-- VISIT -->
 
         <section class="section visit-section">
-        
+
             <div class="section-inner visit-layout">
-        
+
                 <div class="visit-text">
-        
-                    <p class="eyebrow">COME AND SEE US</p>
-        
-                    <h2>Visit Edem Garden</h2>
-        
-                    <p class="intro">
+
+                    <p class="eyebrow" data-i18n="visit.eyebrow">COME AND SEE US</p>
+
+                    <h2 data-i18n="visit.title">Visit Edem Garden</h2>
+
+                    <p class="intro" data-i18n="visit.intro">
                         Find us in the heart of Olympos, a beautiful traditional village surrounded by 
                         the mountains of northern Karpathos, famous for its peaceful atmosphere and breathtaking 
                         sunsets, where traditions remain deeply rooted in the hearts of its people.
                     </p>
-        
+
                     <div class="visit-details">
-        
+
                         <div>
-                            <h3>Address</h3>
-                            <p>
+                            <h3 data-i18n="visit.address.label">Address</h3>
+                            <p data-i18n="visit.address.text">
                                 Epar.Od. Olimpou-Diafaniou<br>
                                 Diafani 857 00<br>
                                 Karpathos, Greece
                             </p>
                         </div>
-        
+
                         <div>
-                            <h3>Phone</h3>
+                            <h3 data-i18n="visit.phone.label">Phone</h3>
                             <p>
                                 <a href="tel:+302245051272">
                                     +30 2245 051272
@@ -409,50 +408,50 @@
                         </div>
 
                         <div>
-                            <h3>WhatsApp</h3>
+                            <h3 data-i18n="visit.whatsapp.label">WhatsApp</h3>
                             <p>
-                                +30 697 065 6907
+                                +30 1234567890
                             </p>
                         </div>
-        
+
                     </div>
 
                     <div class="visit-hours">
-                        <h3>Opening hours</h3>
-                        <p>Every day, 7:00 – 00:00</p>
+                        <h3 data-i18n="visit.hours.label">Opening hours</h3>
+                        <p data-i18n="visit.hours.text">Every day, 7:00 – 00:00</p>
                     </div>
-        
+
                     <div class="action-buttons">
-        
+
                         <a class="button button-primary"
-                            href="tel:+302245051272">
+                            href="tel:+302245051272" data-i18n="visit.button.call">
                             Call Us
                         </a>
-        
+
                         <a class="button button-outline"
                             href="https://maps.app.goo.gl/fTTeFiiTa1p2zFrm9"
                             target="_blank"
-                            rel="noopener">
+                            rel="noopener" data-i18n="visit.button.maps">
                             Open in Google Maps
                         </a>
 
                         <a class="button button-outline"
                             href="https://www.instagram.com/edemgarden_olympos/"
                             target="_blank"
-                            rel="noopener">
+                            rel="noopener" data-i18n="visit.button.instagram">
                             Follow us on Instagram
                         </a>
-        
+
                     </div>
-        
+
                 </div>
-        
+
                 <div class="visit-photo">
-                    <img loading="lazy" src="images/logo-mano.jpg" alt="Business card on the terrace at Edem Garden Restaurant">
+                    <img loading="lazy" src="images/logo-mano.jpg" alt="Business card on the terrace at Edem Garden Restaurant" data-i18n-alt="visit.photo.alt">
                 </div>
-        
+
             </div>
-        
+
         </section>
 
 <!-- LITHOS HOUSE -->
@@ -465,21 +464,21 @@
 
             <div class="lithos-text">
 
-                <p class="eyebrow">STAY NEAR OLYMPOS</p>
+                <p class="eyebrow" data-i18n="lithos.eyebrow">STAY NEAR OLYMPOS</p>
 
-                <h2>Lithos House</h2>
+                <h2 data-i18n="lithos.title">Lithos House</h2>
 
-                <p class="intro">
+                <p class="intro" data-i18n="lithos.intro">
                     Looking for somewhere to stay nearby?
                 </p>
 
-                <p>
+                <p data-i18n="lithos.text1">
                     Lithos House is a traditional holiday home in the rural
                     settlement of Avlona, close to Olympos in northern
                     Karpathos.
                 </p>
 
-                <p>
+                <p data-i18n="lithos.text2">
                     The house offers one bedroom, a living room, a fully
                     equipped kitchen, bathroom, air conditioning, WiFi,
                     private parking, a garden and a terrace with views.
@@ -488,15 +487,15 @@
                 <div class="lithos-details">
 
                     <div>
-                        <h3>Address</h3>
-                        <p>
+                        <h3 data-i18n="lithos.address.label">Address</h3>
+                        <p data-i18n="lithos.address.text">
                             Avlona 857 00<br>
                             Karpathos, Greece
                         </p>
                     </div>
 
                     <div>
-                        <h3>Phone</h3>
+                        <h3 data-i18n="lithos.phone.label">Phone</h3>
                         <p>
                             <a href="tel:+302245051272">
                                 +30 2245 051272
@@ -505,9 +504,9 @@
                     </div>
 
                     <div>
-                        <h3>WhatsApp</h3>
+                        <h3 data-i18n="lithos.whatsapp.label">WhatsApp</h3>
                         <p>
-                            +30 697 065 6907
+                            +30 1234567890
                         </p>
                     </div>
 
@@ -516,14 +515,14 @@
                 <div class="action-buttons lithos-buttons">
 
                     <a class="button button-primary"
-                        href="tel:+302245051272">
+                        href="tel:+302245051272" data-i18n="lithos.button.call">
                         Call Us
                     </a>
 
                     <a class="button button-outline"
                         href="https://maps.app.goo.gl/Pkt7ad9QDaxP2GN29"
                         target="_blank"
-                        rel="noopener">
+                        rel="noopener" data-i18n="lithos.button.maps">
                         Open in Google Maps
                     </a>
 
@@ -532,38 +531,38 @@
             </div>
 
             <div class="lithos-photo">
-                <img loading="lazy" src="images/lithos-logo.png" alt="Lithos House logo">
+                <img loading="lazy" src="images/lithos-logo.png" alt="Lithos House logo" data-i18n-alt="lithos.logo.alt">
             </div>
 
         </div>
 
         <div class="lithos-gallery-group">
 
-            <p class="intro lithos-gallery-intro">
+            <p class="intro lithos-gallery-intro" data-i18n="lithos.outside.intro">
                 Authentic stone walls, a private garden, mountain silence — a home built in the true spirit of Karpathos.
             </p>
 
             <div class="masonry-gallery">
-                <img loading="lazy" src="images/outside-1.jpg" alt="Stone facade of Lithos House in Avlona" class="masonry-item">
-                <img loading="lazy" src="images/outside-2.jpg" alt="Private garden at Lithos House" class="masonry-item">
-                <img loading="lazy" src="images/outside-3.jpg" alt="Outdoor terrace at Lithos House" class="masonry-item">
-                <img loading="lazy" src="images/outside-4.jpg" alt="Mountain view from Lithos House" class="masonry-item">
+                <img loading="lazy" src="images/outside-1.jpg" alt="Stone-built exterior and terrace of Lithos House" data-i18n-alt="lithos.outside.img1.alt" class="masonry-item">
+                <img loading="lazy" src="images/outside-2.jpg" alt="Lithos House surrounded by mountains and garden" data-i18n-alt="lithos.outside.img2.alt" class="masonry-item">
+                <img loading="lazy" src="images/outside-3.jpg" alt="Stone wall and terracotta pots at Lithos House" data-i18n-alt="lithos.outside.img3.alt" class="masonry-item">
+                <img loading="lazy" src="images/outside-4.jpg" alt="Garden terrace with flowers at Lithos House" data-i18n-alt="lithos.outside.img4.alt" class="masonry-item">
             </div>
 
         </div>
 
         <div class="lithos-gallery-group">
 
-            <p class="intro lithos-gallery-intro">
+            <p class="intro lithos-gallery-intro" data-i18n="lithos.inside.intro">
                 Elegant, warm and inviting — a traditional four-poster bed and modern comforts for a truly restful stay.
             </p>
 
             <div class="masonry-gallery">
-                <img loading="lazy" src="images/inside-1.jpg" alt="Dining and living area at Lithos House" class="masonry-item">
-                <img loading="lazy" src="images/inside-2.jpg" alt="Living and dining room at Lithos House" class="masonry-item">
-                <img loading="lazy" src="images/inside-3.jpg" alt="Traditional four-poster bed at Lithos House" class="masonry-item">
-                <img loading="lazy" src="images/inside-4.jpg" alt="Bathroom with shower at Lithos House" class="masonry-item">
-                <img loading="lazy" src="images/inside-5.jpg" alt="Bathroom sink detail at Lithos House" class="masonry-item">
+                <img loading="lazy" src="images/inside-1.jpg" alt="Dining and living area at Lithos House" data-i18n-alt="lithos.inside.img1.alt" class="masonry-item">
+                <img loading="lazy" src="images/inside-2.jpg" alt="Living and dining room at Lithos House" data-i18n-alt="lithos.inside.img2.alt" class="masonry-item">
+                <img loading="lazy" src="images/inside-3.jpg" alt="Traditional four-poster bed at Lithos House" data-i18n-alt="lithos.inside.img3.alt" class="masonry-item">
+                <img loading="lazy" src="images/inside-4.jpg" alt="Bathroom with shower at Lithos House" data-i18n-alt="lithos.inside.img4.alt" class="masonry-item">
+                <img loading="lazy" src="images/inside-5.jpg" alt="Bathroom sink detail at Lithos House" data-i18n-alt="lithos.inside.img5.alt" class="masonry-item">
             </div>
 
         </div>
@@ -578,25 +577,25 @@
 
             <div>
 
-                <p class="eyebrow">FOLLOW US</p>
+                <p class="eyebrow" data-i18n="social.eyebrow">FOLLOW US</p>
 
-                <h2>Edem Garden</h2>
+                <h2 data-i18n="social.title">Edem Garden</h2>
 
-                <p>
+                <p data-i18n="social.text">
                     Discover our latest photos, news and updates.
                 </p>
 
                 <a class="button button-outline"
                     href="https://www.facebook.com/people/Edem-Garden/100054368627519/"
                     target="_blank"
-                    rel="noopener">
+                    rel="noopener" data-i18n="social.facebook">
                     Facebook
                 </a>
 
                 <a class="button button-outline"
                     href="https://www.instagram.com/edemgarden_olympos/"
                     target="_blank"
-                    rel="noopener">
+                    rel="noopener" data-i18n="social.instagram">
                     Instagram
                 </a>
 
@@ -613,9 +612,9 @@
 
         <div class="footer-inner">
 
-            <h3>Edem Garden Restaurant</h3>
+            <h3 data-i18n="footer.title">Edem Garden Restaurant</h3>
 
-            <p>
+            <p data-i18n="footer.text">
                 Traditional homemade Greek food<br>
                 Olympos · Karpathos · Greece
             </p>
@@ -628,25 +627,28 @@
 
             <div class="footer-links">
 
-                <a href="#restaurant">Restaurant</a>
+                <a href="#restaurant" data-i18n="footer.link.restaurant">Restaurant</a>
 
-                <a href="#lithos-house">Lithos House</a>
-                
+                <a href="#lithos-house" data-i18n="footer.link.lithos">Lithos House</a>
+
                     <a href="https://maps.app.goo.gl/fTTeFiiTa1p2zFrm9"
                         target="_blank"
-                        rel="noopener">
+                        rel="noopener" data-i18n="footer.link.maps">
                         Google Maps
                     </a>
 
             </div>
 
-            <p class="copyright">
+            <p class="copyright" data-i18n="footer.copyright">
                 © 2026 Edem Garden Restaurant
             </p>
 
         </div>
 
     </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
