@@ -222,6 +222,10 @@ p {
     padding: 110px 25px;
 }
 
+#restaurant {
+    padding-bottom: 50px;
+}
+
 .section-inner {
     max-width: 1050px;
     margin: 0 auto;
@@ -677,6 +681,11 @@ footer {
 
     .section {
         padding: 80px 22px;
+    }
+
+   
+    #restaurant {
+        padding-bottom: 40px;
     }
    
        .olympos-section {
