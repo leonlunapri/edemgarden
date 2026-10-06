@@ -626,6 +626,11 @@ footer {
     opacity: 0.4;
     font-size: 0.7rem;
     margin-top: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
 }
 
 .credit-link {
