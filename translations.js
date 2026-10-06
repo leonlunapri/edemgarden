@@ -230,7 +230,7 @@ const translations = {
 
         "lithos.eyebrow": "ALLOGGIARE VICINO A OLYMPOS",
         "lithos.title": "Lithos House",
-        "lithos.intro": "Cerchi un posto dove alloggiare qui vicino?",
+        "lithos.intro": "Cerchi un posto dove alloggiare?",
         "lithos.text1": "Lithos House è una casa vacanze tradizionale nel borgo rurale di Avlona, vicino a Olympos, nel nord di Karpathos.",
         "lithos.text2": "La casa offre una camera da letto, un soggiorno, una cucina completamente attrezzata, bagno, aria condizionata, WiFi, parcheggio privato, giardino e una terrazza con vista.",
         "lithos.address.label": "Indirizzo",
