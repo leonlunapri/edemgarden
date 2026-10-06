@@ -827,10 +827,6 @@ footer {
         height: 300px;
     }
 
-       .visit-photo img {
-        height: 300px;
-    }
-
     .lithos-details {
         flex-direction: column;
         gap: 25px;
