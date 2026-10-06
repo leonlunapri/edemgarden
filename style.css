@@ -628,8 +628,15 @@ footer {
     margin-top: 8px;
 }
 
-.site-credit a {
+.credit-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     text-decoration: underline;
+}
+
+.insta-icon {
+    flex-shrink: 0;
 }
 
 
