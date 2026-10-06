@@ -731,7 +731,7 @@ footer {
     .mobile-float-photo {
         display: block;
         float: right;
-        width: 55%;
+        width: 65%;
         height: auto;
         margin: 0 0 15px 15px;
     }
