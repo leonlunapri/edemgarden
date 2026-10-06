@@ -10,7 +10,7 @@ const translations = {
         "restaurant.eyebrow": "A FAMILY TAVERNA",
         "restaurant.title": "Welcome to Edem Garden",
         "restaurant.intro": "Edem Garden is a family taverna in Olympos, Karpathos, offering fresh traditional homemade food in a peaceful terrace surrounded by flowers, plants and mountain views.",
-        "restaurant.text": "Tula is the owner of the restaurant and her daughter Popi welcomes guests in the dining room and terrace. Here, traditional recipes, local ingredients and a relaxed atmosphere come together to create a genuine Karpathian experience.",
+        "restaurant.text": "Tula - the owner of the restaurant - and her daughter Popi welcome guests in the dining room and terrace. Here, traditional recipes, local ingredients and a relaxed atmosphere come together to create a genuine Karpathian experience.",
         "restaurant.photo.alt": "A wooden chair from the restaurant with inscriptions in Greek",
         "restaurant.exterior.alt": "Exterior view of Edem Garden Restaurant",
 
