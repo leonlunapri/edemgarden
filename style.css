@@ -288,14 +288,14 @@ p {
 
 
 /* ---------- IMAGES ---------- */
-
+/*
 .family-image::after {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(182, 94, 60, .35);
 }
-
+*/
 
 /* ---------- FOOD ---------- */
 
