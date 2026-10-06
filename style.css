@@ -570,8 +570,9 @@ p {
     max-width: 1050px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0px;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: center;
     align-items: stretch;
 }
 
