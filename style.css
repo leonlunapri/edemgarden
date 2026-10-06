@@ -857,6 +857,30 @@ footer {
         padding-bottom: 40px;
     }
 
+    .social-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-content: stretch;
+    }
+
+    .social-content {
+        width: 100%;
+    }
+
+    .social-award {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-award img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
 }
 
 /* ---------- THE OLYMPOS VILLAGE ---------- */
