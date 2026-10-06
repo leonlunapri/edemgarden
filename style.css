@@ -840,11 +840,6 @@ footer {
     background: #ebe4d6;
 }
 
-@media (min-width: 801px) {
-    .olympos-section .section-inner {
-        max-width: 1300px;
-    }
-}
 
 .olympos-gallery {
     display: grid;
