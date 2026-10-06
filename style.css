@@ -382,6 +382,10 @@ p {
     display: block;
 }
 
+.dish-card:first-child .dish-image {
+    transform: scale(1.08);
+}
+
 .dish-card h4 {
     font-family: "Cormorant Garamond", serif;
     font-size: 1.3rem;
