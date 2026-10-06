@@ -566,6 +566,31 @@ p {
     color: white;
 }
 
+.social-layout {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 60px;
+    align-items: stretch;
+}
+
+.social-content {
+    text-align: center;
+}
+
+.social-award {
+    display: flex;
+    align-items: stretch;
+}
+
+.social-award img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
 .social-section .button {
     margin-top: 20px;
 }
