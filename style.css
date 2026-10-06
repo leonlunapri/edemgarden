@@ -382,6 +382,9 @@ p {
     display: block;
 }
 
+.makarounes-zoom {
+    transform: scale(1.12);
+}
 
 .dish-card h4 {
     font-family: "Cormorant Garamond", serif;
