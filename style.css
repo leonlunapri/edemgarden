@@ -622,6 +622,16 @@ footer {
     margin-top: 30px;
 }
 
+.site-credit {
+    opacity: 0.4;
+    font-size: 0.7rem;
+    margin-top: 8px;
+}
+
+.site-credit a {
+    text-decoration: underline;
+}
+
 
 /* ---------- MOBILE ---------- */
 
