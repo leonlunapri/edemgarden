@@ -888,6 +888,10 @@ footer {
     font-weight: 600;
     letter-spacing: .08em;
 
+   display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
     cursor: pointer;
     transition: all .25s ease;
 }
