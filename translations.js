@@ -271,12 +271,12 @@ const translations = {
         "hero.title": "Edem Garden<br>Restaurant",
         "hero.subtitle": "Cuisine grecque traditionnelle faite maison<br>au cœur de Karpathos",
         "hero.button.discover": "Découvrir Edem Garden",
-        "hero.button.stay": "Séjournez à proximité : Lithos House",
+        "hero.button.stay": "Séjournez à proximité: Lithos House",
 
         "restaurant.eyebrow": "UNE TAVERNE FAMILIALE",
         "restaurant.title": "Bienvenue à Edem Garden",
         "restaurant.intro": "Edem Garden est une taverne familiale à Olympos, Karpathos, proposant une cuisine grecque traditionnelle faite maison sur une terrasse paisible entourée de fleurs, de plantes et de vues sur les montagnes.",
-        "restaurant.text": "Tula est la propriétaire du restaurant et sa fille Popi accueille les clients dans la salle et sur la terrasse. Ici, recettes traditionnelles, ingrédients locaux et ambiance détendue se rejoignent pour créer une véritable expérience karpathienne.",
+        "restaurant.text": "Tula est la propriétaire du restaurant et avec sa fille Popi accueillent les clients dans la salle et sur la terrasse. Ici, recettes traditionnelles, ingrédients locaux et ambiance détendue se rejoignent pour créer une véritable expérience karpathienne.",
         "restaurant.photo.alt": "Tula et sa fille Popi à Edem Garden",
         "restaurant.exterior.alt": "Vue extérieure du restaurant Edem Garden",
 
@@ -297,7 +297,7 @@ const translations = {
         "food.card3.text": "Des douceurs grecques traditionnelles préparées avec la même philosophie faite maison.",
 
         "dishes.eyebrow": "DE NOTRE CUISINE",
-        "dishes.title": "Un Aperçu de Notre Menu",
+        "dishes.title": "Un aperçu de notre menu",
         "dishes.subtitle": "Voici une sélection de nos plats les plus appréciés — mais notre cuisine a bien plus à offrir, des excellents vins locaux au yaourt grec onctueux, en passant par le miel de producteurs locaux.",
 
         "dish.makarounes.title": "Makarounes",
@@ -312,24 +312,24 @@ const translations = {
         "dish.souvlaki.text": "Brochettes de viande marinée grillée, servies avec du pain frais et du tzatziki.",
         "dish.souvlaki.alt": "Souvlaki, brochettes de viande grecques grillées",
 
-        "dish.salad.title": "Salade Grecque",
+        "dish.salad.title": "Salade grecque",
         "dish.salad.text": "Tomates mûres, concombre, olives et feta, assaisonnés simplement d'huile d'olive et d'origan.",
         "dish.salad.alt": "Salade grecque traditionnelle à la feta et aux olives",
 
-        "dish.aubergines.title": "Aubergines Farcies",
+        "dish.aubergines.title": "Aubergines farcies",
         "dish.aubergines.text": "Aubergines gratinées à la tomate, aux herbes et au fromage, un classique rustique de l'île.",
         "dish.aubergines.alt": "Aubergines farcies, spécialité de Karpathos",
 
-        "dish.stuffed.title": "Tomates et Poivrons Farcis",
+        "dish.stuffed.title": "Tomates et poivrons farcis",
         "dish.stuffed.text": "Tomates et poivrons farcis au riz, aux herbes et à une touche de menthe, cuits au four.",
         "dish.stuffed.alt": "Tomates et poivrons farcis, plat grec fait maison",
 
-        "dish.zucchini.title": "Fleurs de Courgette Farcies",
+        "dish.zucchini.title": "Fleurs de courgette farcies",
         "dish.zucchini.text": "Fleurs de courgette farcies au riz et aux herbes, une délicate spécialité maison.",
         "dish.zucchini.alt": "Fleurs de courgette farcies au riz",
 
         "dish.loukoumades.title": "Loukoumades",
-        "dish.loukoumades.text": "Beignets chauds au miel, saupoudrés de cannelle, un dessert traditionnel fait maison.",
+        "dish.loukoumades.text": "Beignets chauds au miel, saupoudrés de cannelle et noix, un dessert traditionnel fait maison.",
         "dish.loukoumades.alt": "Loukoumades, beignets grecs traditionnels au miel",
 
         "dish.baklava.title": "Baklava",
@@ -338,7 +338,7 @@ const translations = {
 
         "olympos.eyebrow": "LE VILLAGE D'OLYMPOS",
         "olympos.title": "Une vue imprenable sur Olympos",
-        "olympos.intro": "Olympos offre des panoramas à couper le souffle dans toutes les directions : à l'est, une petite vallée préservée s'étend au pied des montagnes ; à l'ouest, la mer semble disparaître à l'horizon, créant le cadre parfait pour des couchers de soleil spectaculaires.",
+        "olympos.intro": "Olympos offre des panoramas à couper le souffle dans toutes les directions: à l'est, une petite vallée préservée s'étend au pied des montagnes; à l'ouest, la mer semble disparaître à l'horizon, créant le cadre parfait pour des couchers de soleil spectaculaires.",
         "olympos.img1.alt": "Vue du village d'Olympos au coucher du soleil",
         "olympos.img2.alt": "Le village d'Olympos et les montagnes vus d'en haut",
         "olympos.img3.alt": "Paysage montagneux autour d'Olympos, Karpathos",
