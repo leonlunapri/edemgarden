@@ -652,6 +652,10 @@ footer {
         padding: 80px 22px;
     }
 
+      .language-switcher .flag {
+        font-size: 11px;
+    }
+   
     .image-section,
     .image-section.reverse {
         grid-template-columns: 1fr;
@@ -910,6 +914,11 @@ footer {
     color: white;
 }
 
+@media (min-width: 801px) {
+    .language-switcher .flag {
+        font-size: 17px;
+    }
+}
 
 /* ---------- SMALL PHONES ---------- */
 
