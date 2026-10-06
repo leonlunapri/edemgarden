@@ -143,18 +143,18 @@ const translations = {
         "restaurant.eyebrow": "UNA TAVERNA DI FAMIGLIA",
         "restaurant.title": "Benvenuti a Edem Garden",
         "restaurant.intro": "Edem Garden è una taverna a conduzione familiare a Olympos, Karpathos, che offre cucina greca tradizionale fatta in casa in una terrazza tranquilla, circondata da fiori, piante e vista sulle montagne.",
-        "restaurant.text": "Tula è la proprietaria del ristorante e sua figlia Popi accoglie gli ospiti in sala e in terrazza. Qui, ricette tradizionali, ingredienti locali e un'atmosfera rilassata si uniscono per creare un'autentica esperienza karpathiana.",
+        "restaurant.text": "Tula, la proprietaria del ristorante, e sua figlia Popi accolgono gli ospiti in sala e in terrazza. Qui, ricette tradizionali, ingredienti locali e un'atmosfera rilassata si uniscono per creare un'autentica esperienza karpathiana.",
         "restaurant.photo.alt": "Tula e sua figlia Popi a Edem Garden",
         "restaurant.exterior.alt": "Vista esterna del ristorante Edem Garden",
 
         "family.eyebrow": "LA STORIA DIETRO AL NOME",
         "family.title": "Edem Garden",
         "family.text1": "Il ristorante si trova in una splendida terrazza circondata da fiori e piante, con una vista mozzafiato sulle montagne e sul villaggio tradizionale di Olympos. È un luogo tranquillo dove gustare un pasto, una colazione o semplicemente rilassarsi con un caffè greco ammirando il panorama.",
-        "family.text2": "Vieni per il cibo. Resta per la vista, la terrazza e la calda atmosfera familiare.",
+        "family.text2": "Venite a provare i nostri piatti. Godetevi la vista, la terrazza e la calda atmosfera familiare.",
         "family.entrance.alt": "Ingresso del ristorante Edem Garden a Olympos",
 
         "food.eyebrow": "CUCINA TRADIZIONALE DI KARPATHOS",
-        "food.title": "Fresco. Fatto in casa. Locale.",
+        "food.title": "Ingredienti freschi. Cibi fatti in casa. Produzione locale.",
         "food.intro": "La nostra cucina si concentra su piatti tradizionali fatti in casa, preparati con i sapori semplici e gli ingredienti della cucina delle isole greche.",
         "food.card1.title": "Ricette Tradizionali",
         "food.card1.text": "Scopri piatti autentici ispirati alla tradizione culinaria di Karpathos.",
@@ -163,8 +163,8 @@ const translations = {
         "food.card3.title": "Dolci Fatti in Casa",
         "food.card3.text": "Dolci tradizionali greci preparati con la stessa filosofia genuina e casalinga.",
 
-        "dishes.eyebrow": "DALLA NOSTRA CUCINA",
-        "dishes.title": "Un Assaggio del Nostro Menù",
+        "dishes.eyebrow": "LA NOSTRA CUCINA",
+        "dishes.title": "Un piccolo estratto del nostro menù",
         "dishes.subtitle": "Ecco una selezione dei nostri piatti più amati — ma la nostra cucina ha molto altro da offrire, dagli ottimi vini locali allo yogurt greco cremoso, fino al miele di produttori locali.",
 
         "dish.makarounes.title": "Makarounes",
@@ -179,24 +179,24 @@ const translations = {
         "dish.souvlaki.text": "Spiedini di carne marinata alla griglia, serviti con pane fresco e tzatziki.",
         "dish.souvlaki.alt": "Souvlaki, spiedini di carne greci alla griglia",
 
-        "dish.salad.title": "Insalata Greca",
-        "dish.salad.text": "Pomodori maturi, cetrioli, olive e feta, conditi semplicemente con olio d'oliva e origano.",
+        "dish.salad.title": "Insalata greca",
+        "dish.salad.text": "Pomodori, cetrioli, olive e feta, conditi semplicemente con olio d'oliva e origano.",
         "dish.salad.alt": "Insalata greca tradizionale con feta e olive",
 
-        "dish.aubergines.title": "Melanzane Ripiene",
+        "dish.aubergines.title": "Melanzane ripiene",
         "dish.aubergines.text": "Melanzane al forno con pomodoro, erbe e formaggio, un classico rustico dell'isola.",
         "dish.aubergines.alt": "Melanzane ripiene, specialità di Karpathos",
 
-        "dish.stuffed.title": "Pomodori e Peperoni Ripieni",
+        "dish.stuffed.title": "Pomodori e peperoni Ripieni",
         "dish.stuffed.text": "Pomodori e peperoni ripieni di riso, erbe e un tocco di menta, cotti al forno.",
         "dish.stuffed.alt": "Pomodori e peperoni ripieni, piatto greco fatto in casa",
 
-        "dish.zucchini.title": "Fiori di Zucchina Ripieni",
-        "dish.zucchini.text": "Fiori di zucchina ripieni di riso ed erbe, una delicata specialità fatta in casa.",
-        "dish.zucchini.alt": "Fiori di zucchina ripieni di riso",
+        "dish.zucchini.title": "Fiori di zucchine ripieni",
+        "dish.zucchini.text": "Fiori di zucchine ripieni di riso ed erbe, una delicata specialità fatta in casa.",
+        "dish.zucchini.alt": "Fiori di zucchine ripieni di riso",
 
         "dish.loukoumades.title": "Loukoumades",
-        "dish.loukoumades.text": "Soffici frittelle calde al miele, spolverate di cannella, un tradizionale dolce fatto in casa.",
+        "dish.loukoumades.text": "Soffici frittelle calde al miele, spolverate da un pizzico di cannella e noci, un tradizionale dolce fatto in casa.",
         "dish.loukoumades.alt": "Loukoumades, tradizionali frittelle greche al miele",
 
         "dish.baklava.title": "Baklava",
