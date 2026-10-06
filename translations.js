@@ -11,7 +11,7 @@ const translations = {
         "restaurant.title": "Welcome to Edem Garden",
         "restaurant.intro": "Edem Garden is a family taverna in Olympos, Karpathos, offering fresh traditional homemade food in a peaceful terrace surrounded by flowers, plants and mountain views.",
         "restaurant.text": "Tula is the owner of the restaurant and her daughter Popi welcomes guests in the dining room and terrace. Here, traditional recipes, local ingredients and a relaxed atmosphere come together to create a genuine Karpathian experience.",
-        "restaurant.photo.alt": "Tula and her daughter Popi at Edem Garden",
+        "restaurant.photo.alt": "A wooden chair from the restaurant with inscriptions in Greek",
         "restaurant.exterior.alt": "Exterior view of Edem Garden Restaurant",
 
         "family.eyebrow": "THE STORY BEHIND THE NAME",
@@ -144,7 +144,7 @@ const translations = {
         "restaurant.title": "Benvenuti a Edem Garden",
         "restaurant.intro": "Edem Garden è una taverna a conduzione familiare a Olympos, Karpathos, che offre cucina greca tradizionale fatta in casa in una terrazza tranquilla, circondata da fiori, piante e vista sulle montagne.",
         "restaurant.text": "Tula, la proprietaria del ristorante, e sua figlia Popi accolgono gli ospiti in sala e in terrazza. Qui, ricette tradizionali, ingredienti locali e un'atmosfera rilassata si uniscono per creare un'autentica esperienza karpathiana.",
-        "restaurant.photo.alt": "Tula e sua figlia Popi a Edem Garden",
+        "restaurant.photo.alt": "Una sedia in legno del ristorante con scritte in greco",
         "restaurant.exterior.alt": "Vista esterna del ristorante Edem Garden",
 
         "family.eyebrow": "LA STORIA DIETRO AL NOME",
@@ -277,7 +277,7 @@ const translations = {
         "restaurant.title": "Bienvenue à Edem Garden",
         "restaurant.intro": "Edem Garden est une taverne familiale à Olympos, Karpathos, proposant une cuisine grecque traditionnelle faite maison sur une terrasse paisible entourée de fleurs, de plantes et de vues sur les montagnes.",
         "restaurant.text": "Tula est la propriétaire du restaurant et avec sa fille Popi accueillent les clients dans la salle et sur la terrasse. Ici, recettes traditionnelles, ingrédients locaux et ambiance détendue se rejoignent pour créer une véritable expérience karpathienne.",
-        "restaurant.photo.alt": "Tula et sa fille Popi à Edem Garden",
+        "restaurant.photo.alt": "Une chaise en bois du restaurant avec des inscriptions en grec",
         "restaurant.exterior.alt": "Vue extérieure du restaurant Edem Garden",
 
         "family.eyebrow": "L'HISTOIRE DERRIÈRE LE NOM",
@@ -410,7 +410,7 @@ const translations = {
         "restaurant.title": "Καλώς ήρθατε στο Edem Garden",
         "restaurant.intro": "Το Edem Garden είναι μια οικογενειακή ταβέρνα στον Όλυμπο της Καρπάθου, που προσφέρει φρέσκο, παραδοσιακό, σπιτικό φαγητό σε μια ήσυχη βεράντα, περιτριγυρισμένη από λουλούδια και φυτά, με θέα στα βουνά.",
         "restaurant.text": "Η Τούλα είναι η ιδιοκτήτρια του εστιατορίου και η κόρη της, η Πόπη, υποδέχεται τους επισκέπτες στη σάλα και στη βεράντα. Εδώ, οι παραδοσιακές συνταγές, τα τοπικά υλικά και η χαλαρή ατμόσφαιρα συνδυάζονται για να δημιουργήσουν μια αυθεντική καρπάθικη εμπειρία.",
-        "restaurant.photo.alt": "Η Τούλα και η κόρη της Πόπη στο Edem Garden",
+        "restaurant.photo.alt": "Μια ξύλινη καρέκλα του εστιατορίου με επιγραφές στα ελληνικά",
         "restaurant.exterior.alt": "Εξωτερική άποψη του εστιατορίου Edem Garden",
     
         "family.eyebrow": "Η ΙΣΤΟΡΙΑ ΠΙΣΩ ΑΠΟ ΤΟ ΟΝΟΜΑ",
