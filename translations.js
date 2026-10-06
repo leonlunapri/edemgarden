@@ -363,7 +363,7 @@ const translations = {
 
         "lithos.eyebrow": "SÉJOURNER PRÈS D'OLYMPOS",
         "lithos.title": "Lithos House",
-        "lithos.intro": "Vous cherchez un endroit où séjourner à proximité ?",
+        "lithos.intro": "Vous cherchez un endroit où séjourner à proximité?",
         "lithos.text1": "Lithos House est une maison de vacances traditionnelle dans le hameau rural d'Avlona, près d'Olympos, dans le nord de Karpathos.",
         "lithos.text2": "La maison dispose d'une chambre, d'un salon, d'une cuisine entièrement équipée, d'une salle de bain, de la climatisation, du WiFi, d'un parking privé, d'un jardin et d'une terrasse avec vue.",
         "lithos.address.label": "Adresse",
