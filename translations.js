@@ -46,6 +46,10 @@ const translations = {
         "dish.souvlaki.text": "Grilled skewers of marinated meat, served with fresh bread and tzatziki.",
         "dish.souvlaki.alt": "Souvlaki, grilled Greek meat skewers",
 
+        "dish.mix.title": "Mixed Platter",
+        "dish.mix.text": "A generous platter of our homemade favourites: makarounes, tzatziki, Greek salad, stuffed vegetables and more.",
+        "dish.mix.alt": "Mixed platter with makarounes, tzatziki, Greek salad and stuffed vegetables",
+
         "dish.salad.title": "Greek Salad",
         "dish.salad.text": "Ripe tomatoes, cucumber, olives and feta, dressed simply with olive oil and oregano.",
         "dish.salad.alt": "Traditional Greek salad with feta and olives",
@@ -180,6 +184,10 @@ const translations = {
         "dish.souvlaki.text": "Spiedini di carne marinata alla griglia, serviti con pane fresco e tzatziki.",
         "dish.souvlaki.alt": "Souvlaki, spiedini di carne greci alla griglia",
 
+        "dish.mix.title": "Piatto misto",
+        "dish.mix.text": "Un piatto che ha alcune tra le nostre specialità fatte in casa: makarounes, tzatziki, insalata greca, verdure ripiene e molto altro.",
+        "dish.mix.alt": "Piatto misto con makarounes, tzatziki, insalata greca e verdure ripiene",
+
         "dish.salad.title": "Insalata greca",
         "dish.salad.text": "Pomodori, cetrioli, olive e feta, conditi semplicemente con olio d'oliva e origano.",
         "dish.salad.alt": "Insalata greca tradizionale con feta e olive",
@@ -313,6 +321,10 @@ const translations = {
         "dish.souvlaki.title": "Souvlaki",
         "dish.souvlaki.text": "Brochettes de viande marinée grillée, servies avec du pain frais et du tzatziki.",
         "dish.souvlaki.alt": "Souvlaki, brochettes de viande grecques grillées",
+        
+        "dish.mix.title": "Assiette mixte",
+        "dish.mix.text": "Une généreuse assiette de nos spécialités maison: makarounes, tzatziki, salade grecque, légumes farcis et bien plus encore.",
+        "dish.mix.alt": "Assiette mixte avec makarounes, tzatziki, salade grecque et légumes farcis",
 
         "dish.salad.title": "Salade grecque",
         "dish.salad.text": "Tomates mûres, concombre, olives et feta, assaisonnés simplement d'huile d'olive et d'origan.",
@@ -447,6 +459,10 @@ const translations = {
         "dish.souvlaki.title": "Σουβλάκι",
         "dish.souvlaki.text": "Ψητά καλαμάκια από μαριναρισμένο κρέας, σερβιρισμένα με φρέσκο ψωμί και τζατζίκι.",
         "dish.souvlaki.alt": "Σουβλάκι, ελληνικά καλαμάκια ψητού κρέατος",
+        
+        "dish.mix.title": "Ποικιλία",
+        "dish.mix.text": "Ένα πλούσιο πιάτο με τα σπιτικά μας αγαπημένα: μακαρούνες, τζατζίκι, χωριάτικη σαλάτα, γεμιστά λαχανικά και πολλά ακόμα.",
+        "dish.mix.alt": "Ποικιλία με μακαρούνες, τζατζίκι, χωριάτικη σαλάτα και γεμιστά λαχανικά",
     
         "dish.salad.title": "Χωριάτικη σαλάτα",
         "dish.salad.text": "Ώριμες ντομάτες, αγγούρι, ελιές και φέτα, με ελαιόλαδο και ρίγανη.",
