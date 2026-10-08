@@ -308,7 +308,7 @@ const translations = {
 
         "family.eyebrow": "NOTRE PHILOSOPHIE: DES INGRÉDIENTS SIMPLES. DES RECETTES INTEMPORELLES.",
         "family.title": "Edem Garden",
-        "family.text1": "Depuis 1997, Tula et Minas tiennent Edem Garden avec amour, préservant les traditions et les saveurs d'Olympos, à Karpathos. Notre philosophie est simple : des ingrédients frais et locaux, une authentique cuisine grecque familiale et des recettes transmises de génération en génération. Du chevreau élevé sur l'île aux plats traditionnels de grand-mère, chaque spécialité célèbre notre patrimoine culinaire. Entouré de fleurs et offrant une vue magnifique sur les montagnes, notre jardin paisible invite à se détendre, partager un bon repas et se sentir chez soi.",
+        "family.text1": "Depuis 1997, Tula et Minas tiennent Edem Garden avec amour, préservant les traditions et les saveurs d'Olympos, à Karpathos. Notre philosophie est simple: des ingrédients frais et locaux, une authentique cuisine grecque familiale et des recettes transmises de génération en génération. Du chevreau élevé sur l'île aux plats traditionnels de grand-mère, chaque spécialité célèbre notre patrimoine culinaire. Entouré de fleurs et offrant une vue magnifique sur les montagnes, notre jardin paisible invite à se détendre, partager un bon repas et se sentir chez soi.",
         "family.text2": "Venez pour la cuisine. Restez pour la vue, la terrasse et la chaleureuse ambiance familiale.",
         "family.entrance.alt": "Entrée du restaurant Edem Garden à Olympos",
 
