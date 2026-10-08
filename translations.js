@@ -160,9 +160,9 @@ const translations = {
         "restaurant.photo.alt": "Una sedia in legno del ristorante con scritte in greco",
         "restaurant.exterior.alt": "Vista esterna del ristorante Edem Garden",
 
-        "family.eyebrow": "LA STORIA DIETRO AL NOME",
+        "family.eyebrow": "LA NOSTRA FILOSOFIA: INGREDIENTI SEMPLICI. RICETTE SENZA TEMPO.",
         "family.title": "Edem Garden",
-        "family.text1": "Il ristorante si trova in una splendida terrazza circondata da fiori e piante, con una vista mozzafiato sulle montagne e sul villaggio tradizionale di Olympos. È un luogo tranquillo dove gustare un pasto, una colazione o semplicemente rilassarsi con un caffè greco ammirando il panorama.",
+        "family.text1": "Dal 1997, Edem Garden è gestito con amore da Tula e Minas, rimanendo fedele alle tradizioni e ai sapori di Olympos, Karpathos. La nostra filosofia è semplice: ingredienti freschi e locali, autentica cucina casalinga greca e ricette ispirate alle tradizioni familiari tramandate di generazione in generazione. Dal nostro specialissimo capretto allevato sull'isola ai sapori genuini della cucina della nonna, ogni piatto celebra il patrimonio gastronomico della nostra isola. Circondato da fiori, con una vista mozzafiato sulle montagne, il nostro tranquillo giardino è un luogo dove rallentare, condividere del buon cibo e sentirsi a casa.",
         "family.text2": "Venite a provare i nostri piatti. Godetevi la vista, la terrazza e la calda atmosfera familiare.",
         "family.entrance.alt": "Ingresso del ristorante Edem Garden a Olympos",
 
@@ -306,9 +306,9 @@ const translations = {
         "restaurant.photo.alt": "Une chaise en bois du restaurant avec des inscriptions en grec",
         "restaurant.exterior.alt": "Vue extérieure du restaurant Edem Garden",
 
-        "family.eyebrow": "L'HISTOIRE DERRIÈRE LE NOM",
+        "family.eyebrow": "NOTRE PHILOSOPHIE: DES INGRÉDIENTS SIMPLES. DES RECETTES INTEMPORELLES.",
         "family.title": "Edem Garden",
-        "family.text1": "Le restaurant se trouve sur une magnifique terrasse entourée de fleurs et de plantes, offrant une vue imprenable sur les montagnes et le village traditionnel d'Olympos. C'est un lieu paisible pour savourer un repas, un petit-déjeuner ou simplement se détendre avec un café grec en admirant le paysage.",
+        "family.text1": "Depuis 1997, Edem Garden est tenu avec amour par Tula et Minas, dans le respect des traditions et des saveurs d'Olympos, à Karpathos. Notre philosophie est simple: des ingrédients frais et locaux, une authentique cuisine grecque familiale et des recettes inspirées de traditions transmises de génération en génération. De notre spécialité de chevreau élevé sur l'île aux saveurs réconfortantes de la cuisine de grand-mère, chaque plat célèbre le patrimoine culinaire de notre île. Entouré de fleurs et offrant une vue imprenable sur les montagnes, notre jardin paisible est un lieu où l'on prend le temps de savourer un bon repas, de partager et de se sentir comme chez soi.",
         "family.text2": "Venez pour la cuisine. Restez pour la vue, la terrasse et la chaleureuse ambiance familiale.",
         "family.entrance.alt": "Entrée du restaurant Edem Garden à Olympos",
 
@@ -452,9 +452,9 @@ const translations = {
         "restaurant.photo.alt": "Μια ξύλινη καρέκλα του εστιατορίου με επιγραφές στα ελληνικά",
         "restaurant.exterior.alt": "Εξωτερική άποψη του εστιατορίου Edem Garden",
     
-        "family.eyebrow": "Η ΙΣΤΟΡΙΑ ΠΙΣΩ ΑΠΟ ΤΟ ΟΝΟΜΑ",
+        "family.eyebrow": "Η ΦΙΛΟΣΟΦΙΑ ΜΑΣ: ΑΠΛΑ ΥΛΙΚΑ. ΔΙΑΧΡΟΝΙΚΕΣ ΣΥΝΤΑΓΕΣ.",
         "family.title": "Edem Garden",
-        "family.text1": "Το εστιατόριο βρίσκεται σε μια όμορφη βεράντα, περιτριγυρισμένη από λουλούδια και φυτά, με εκπληκτική θέα στα βουνά και στο παραδοσιακό χωριό του Ολύμπου. Είναι ένα ήσυχο μέρος για να απολαύσετε ένα γεύμα, ένα πρωινό ή απλώς να χαλαρώσετε με έναν ελληνικό καφέ απολαμβάνοντας το τοπίο.",
+        "family.text1": "Από το 1997, η Τούλα και ο Μηνάς διατηρούν με αγάπη το Edem Garden, παραμένοντας πιστοί στις παραδόσεις και τις γεύσεις της Ολύμπου Καρπάθου. Η φιλοσοφία μας είναι απλή: φρέσκα, ντόπια υλικά, αυθεντική ελληνική σπιτική κουζίνα και συνταγές εμπνευσμένες από οικογενειακές παραδόσεις που περνούν από γενιά σε γενιά. Από το ξεχωριστό ντόπιο κατσικάκι μας μέχρι τις αγαπημένες γεύσεις της κουζίνας της γιαγιάς, κάθε πιάτο τιμά τη γαστρονομική κληρονομιά του νησιού μας. Ανάμεσα σε λουλούδια, με μαγευτική θέα στα βουνά, ο ήσυχος κήπος μας είναι ένα μέρος όπου μπορείτε να χαλαρώσετε, να απολαύσετε καλό φαγητό με την παρέα σας και να νιώσετε σαν στο σπίτι σας.",
         "family.text2": "Ελάτε για το φαγητό. Μείνετε για τη θέα, τη βεράντα και τη ζεστή οικογενειακή ατμόσφαιρα.",
         "family.entrance.alt": "Η είσοδος του εστιατορίου Edem Garden στον Όλυμπο",
     
