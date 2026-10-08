@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        document.documentElement.setAttribute("lang", lang);
+            document.documentElement.setAttribute("lang", lang === "gr" ? "el" : lang);
 
         document.querySelectorAll("[data-i18n]").forEach(function (el) {
             var key = el.getAttribute("data-i18n");
