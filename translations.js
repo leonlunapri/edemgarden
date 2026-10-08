@@ -212,7 +212,7 @@ const translations = {
         "dish.aubergines.text": "Melanzane al forno con pomodoro, erbe e formaggio, un classico rustico dell'isola.",
         "dish.aubergines.alt": "Melanzane ripiene, specialità di Karpathos",
 
-        "dish.stuffed.title": "Pomodori e peperoni Ripieni",
+        "dish.stuffed.title": "Pomodori e peperoni ripieni",
         "dish.stuffed.text": "Pomodori e peperoni ripieni di riso, erbe e un tocco di menta, cotti al forno.",
         "dish.stuffed.alt": "Pomodori e peperoni ripieni, piatto greco fatto in casa",
 
