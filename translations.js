@@ -14,7 +14,7 @@ const translations = {
         "restaurant.photo.alt": "A wooden chair from the restaurant with inscriptions in Greek",
         "restaurant.exterior.alt": "Exterior view of Edem Garden Restaurant",
 
-        "family.eyebrow": "OUR PHILOSOPHY: SIMPLE INGREDIENTS. TIMELESS RECIPES.",
+        "family.eyebrow": "OUR PHILOSOPHY",
         "family.title": "Edem Garden",
         "family.text1": "Since 1997, Tula and Minas have lovingly run Edem Garden, preserving the traditions and flavours of Olympos, Karpathos. Our philosophy is simple: fresh local ingredients, authentic Greek home cooking and recipes passed down through generations. From our signature locally raised goat to grandma's traditional dishes, every meal celebrates our island's culinary heritage. Surrounded by flowers and breathtaking mountain views, our peaceful garden invites you to relax, share good food and feel at home.",
         "family.text2": "Come for the food. Stay for the view, the terrace and the warm family atmosphere.",
@@ -160,7 +160,7 @@ const translations = {
         "restaurant.photo.alt": "Una sedia in legno del ristorante con scritte in greco",
         "restaurant.exterior.alt": "Vista esterna del ristorante Edem Garden",
 
-        "family.eyebrow": "LA NOSTRA FILOSOFIA: INGREDIENTI SEMPLICI. RICETTE SENZA TEMPO.",
+        "family.eyebrow": "LA NOSTRA FILOSOFIA",
         "family.title": "Edem Garden",
         "family.text1": "Dal 1997, Tula e Minas gestiscono con amore Edem Garden, custodendo le tradizioni e i sapori di Olympos, Karpathos. La nostra filosofia è semplice: ingredienti freschi e locali, autentica cucina casalinga greca e ricette tramandate da generazioni. Dal nostro capretto allevato sull'isola ai piatti tradizionali della nonna, ogni specialità celebra il patrimonio gastronomico della nostra isola. Tra fiori e splendide viste sulle montagne, il nostro tranquillo giardino invita a rilassarsi, condividere buon cibo e sentirsi a casa.",
         "family.text2": "Venite a provare i nostri piatti. Godetevi la vista, la terrazza e la calda atmosfera familiare.",
@@ -306,7 +306,7 @@ const translations = {
         "restaurant.photo.alt": "Une chaise en bois du restaurant avec des inscriptions en grec",
         "restaurant.exterior.alt": "Vue extérieure du restaurant Edem Garden",
 
-        "family.eyebrow": "NOTRE PHILOSOPHIE: DES INGRÉDIENTS SIMPLES. DES RECETTES INTEMPORELLES.",
+        "family.eyebrow": "NOTRE PHILOSOPHIE",
         "family.title": "Edem Garden",
         "family.text1": "Depuis 1997, Tula et Minas tiennent Edem Garden avec amour, préservant les traditions et les saveurs d'Olympos, à Karpathos. Notre philosophie est simple: des ingrédients frais et locaux, une authentique cuisine grecque familiale et des recettes transmises de génération en génération. Du chevreau élevé sur l'île aux plats traditionnels de grand-mère, chaque spécialité célèbre notre patrimoine culinaire. Entouré de fleurs et offrant une vue magnifique sur les montagnes, notre jardin paisible invite à se détendre, partager un bon repas et se sentir chez soi.",
         "family.text2": "Venez pour la cuisine. Restez pour la vue, la terrasse et la chaleureuse ambiance familiale.",
@@ -452,7 +452,7 @@ const translations = {
         "restaurant.photo.alt": "Μια ξύλινη καρέκλα του εστιατορίου με επιγραφές στα ελληνικά",
         "restaurant.exterior.alt": "Εξωτερική άποψη του εστιατορίου Edem Garden",
     
-        "family.eyebrow": "Η ΦΙΛΟΣΟΦΙΑ ΜΑΣ: ΑΠΛΑ ΥΛΙΚΑ. ΔΙΑΧΡΟΝΙΚΕΣ ΣΥΝΤΑΓΕΣ.",
+        "family.eyebrow": "Η ΦΙΛΟΣΟΦΙΑ ΜΑΣ",
         "family.title": "Edem Garden",
         "family.text1": "Από το 1997, η Τούλα και ο Μηνάς διατηρούν με αγάπη το Edem Garden, κρατώντας ζωντανές τις παραδόσεις και τις γεύσεις της Ολύμπου Καρπάθου. Η φιλοσοφία μας είναι απλή: φρέσκα, ντόπια υλικά, αυθεντική ελληνική σπιτική κουζίνα και συνταγές που περνούν από γενιά σε γενιά. Από το ντόπιο κατσικάκι μέχρι τα παραδοσιακά φαγητά της γιαγιάς, κάθε πιάτο τιμά τη γαστρονομική κληρονομιά του νησιού μας. Ανάμεσα σε λουλούδια, με υπέροχη θέα στα βουνά, ο ήσυχος κήπος μας σας προσκαλεί να χαλαρώσετε, να απολαύσετε καλό φαγητό και να νιώσετε σαν στο σπίτι σας.",
         "family.text2": "Ελάτε για το φαγητό. Μείνετε για τη θέα, τη βεράντα και τη ζεστή οικογενειακή ατμόσφαιρα.",
