@@ -14,9 +14,9 @@ const translations = {
         "restaurant.photo.alt": "A wooden chair from the restaurant with inscriptions in Greek",
         "restaurant.exterior.alt": "Exterior view of Edem Garden Restaurant",
 
-        "family.eyebrow": "THE STORY BEHIND THE NAME",
+        "family.eyebrow": "OUR PHILOSOPHY: SIMPLE INGREDIENTS. TIMELESS RECIPES.",
         "family.title": "Edem Garden",
-        "family.text1": "The restaurant is in a beautiful terrace surrounded by flowers and plants, offering a breathtaking view of the mountains and the traditional village of Olympos. It is a peaceful place to enjoy a meal, a breakfast or simply relax with a greek coffee and take in the scenery.",
+        "family.text1": "Since 1997, Edem Garden has been lovingly run by Tula and Minas, staying true to the traditions and flavours of Olympos, Karpathos. Our philosophy is simple: fresh, locally sourced ingredients, authentic Greek home cooking and recipes inspired by generations of family tradition. From our signature locally raised goat to the comforting flavours of grandma's kitchen, every dish celebrates the culinary heritage of our island. Surrounded by flowers, with breathtaking mountain views, our peaceful garden is a place to slow down, share good food and feel at home.",
         "family.text2": "Come for the food. Stay for the view, the terrace and the warm family atmosphere.",
         "family.entrance.alt": "Entrance to Edem Garden Restaurant in Olympos",
 
