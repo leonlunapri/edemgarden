@@ -169,11 +169,11 @@ const translations = {
         "food.eyebrow": "CUCINA TRADIZIONALE DI KARPATHOS",
         "food.title": "Ingredienti freschi. Cibi fatti in casa. Produzione locale.",
         "food.intro": "La nostra cucina si concentra su piatti tradizionali fatti in casa, preparati con i sapori semplici e gli ingredienti della cucina delle isole greche.",
-        "food.card1.title": "Ricette Tradizionali",
+        "food.card1.title": "Ricette tradizionali",
         "food.card1.text": "Scopri piatti autentici ispirati alla tradizione culinaria di Karpathos.",
-        "food.card2.title": "Colazione & Caffè",
+        "food.card2.title": "Colazione & caffè",
         "food.card2.text": "Inizia la giornata con una colazione fresca o goditi un caffè caldo o freddo immerso nella natura.",
-        "food.card3.title": "Dolci Fatti in Casa",
+        "food.card3.title": "Dolci fatti in casa",
         "food.card3.text": "Dolci tradizionali greci preparati con la stessa filosofia genuina e casalinga.",
 
         "dishes.eyebrow": "LA NOSTRA CUCINA",
@@ -302,7 +302,7 @@ const translations = {
         "restaurant.eyebrow": "UNE TAVERNE FAMILIALE",
         "restaurant.title": "Bienvenue à Edem Garden",
         "restaurant.intro": "Edem Garden est une taverne familiale à Olympos, Karpathos, proposant une cuisine grecque traditionnelle faite maison sur une terrasse paisible entourée de fleurs, de plantes et de vues sur les montagnes.",
-        "restaurant.text": "Tula est la propriétaire du restaurant et avec sa fille Popi accueillent les clients dans la salle et sur la terrasse. Ici, recettes traditionnelles, ingrédients locaux et ambiance détendue se rejoignent pour créer une véritable expérience karpathienne.",
+        "restaurant.text": "Tula, la propriétaire du restaurant, et sa fille Popi accueillent les clients dans la salle et sur la terrasse. Ici, recettes traditionnelles, ingrédients locaux et ambiance détendue se rejoignent pour créer une véritable expérience karpathienne.",
         "restaurant.photo.alt": "Une chaise en bois du restaurant avec des inscriptions en grec",
         "restaurant.exterior.alt": "Vue extérieure du restaurant Edem Garden",
 
