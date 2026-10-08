@@ -290,6 +290,11 @@ p {
     line-height: 1.45;
 }
 
+.image-section-content .eyebrow {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.7;
+}
 
 /* ---------- IMAGES ---------- */
 /*
