@@ -50,13 +50,13 @@ const translations = {
         "dish.mix.text": "A generous platter of our homemade favourites: makarounes, tzatziki, Greek salad, stuffed vegetables and more.",
         "dish.mix.alt": "Mixed platter with makarounes, tzatziki, Greek salad and stuffed vegetables",
         
-        "dish.mix.title": "Stewed Goat",
-        "dish.mix.text": "Tender goat meat, slowly stewed with tomatoes, onions and aromatic herbs in a rich, traditional Greek sauce.",
-        "dish.mix.alt": "Traditional Greek stewed goat served with a rich tomato and herb sauce at Edem Garden Restaurant",
+        "dish.capretto.title": "Stewed Goat",
+        "dish.capretto.text": "Tender goat meat, slowly stewed with tomatoes, onions and aromatic herbs in a rich, traditional Greek sauce.",
+        "dish.capretto.alt": "Traditional Greek stewed goat served with a rich tomato and herb sauce at Edem Garden Restaurant",
 
-        "dish.mix.title": "Pastitsio",
-        "dish.mix.text": "Layers of pasta and seasoned minced meat, baked with a creamy béchamel topping until golden.",
-        "dish.mix.alt": "Traditional Greek pastitsio with layers of pasta, minced meat and golden béchamel sauce at Edem Garden Restaurant",
+        "dish.pasticcio.title": "Pastitsio",
+        "dish.pasticcio.text": "Layers of pasta and seasoned minced meat, baked with a creamy béchamel topping until golden.",
+        "dish.pasticcio.alt": "Traditional Greek pastitsio with layers of pasta, minced meat and golden béchamel sauce at Edem Garden Restaurant",
         
         "dish.salad.title": "Greek Salad",
         "dish.salad.text": "Ripe tomatoes, cucumber, olives and feta, dressed simply with olive oil and oregano.",
@@ -196,13 +196,13 @@ const translations = {
         "dish.mix.text": "Un piatto che ha alcune tra le nostre specialità fatte in casa: makarounes, tzatziki, insalata greca, verdure ripiene e molto altro.",
         "dish.mix.alt": "Piatto misto con makarounes, tzatziki, insalata greca e verdure ripiene",
         
-        "dish.mix.title": "Capretto in umido",
-        "dish.mix.text": "Tenera carne di capretto, cotta lentamente con pomodori, cipolle ed erbe aromatiche in un ricco sugo tradizionale greco.",
-        "dish.mix.alt": "Capretto in umido alla greca, servito con un ricco sugo di pomodoro ed erbe aromatiche all'Edem Garden Restaurant",
+        "dish.capretto.title": "Capretto in umido",
+        "dish.capretto.text": "Tenera carne di capretto, cotta lentamente con pomodori, cipolle ed erbe aromatiche in un ricco sugo tradizionale greco.",
+        "dish.capretto.alt": "Capretto in umido alla greca, servito con un ricco sugo di pomodoro ed erbe aromatiche all'Edem Garden Restaurant",
 
-        "dish.mix.title": "Pastitsio greco",
-        "dish.mix.text": "Strati di pasta e ragù speziato, cotti al forno con una cremosa besciamella fino a doratura.",
-        "dish.mix.alt": "Pastitsio tradizionale greco con strati di pasta, carne macinata e besciamella dorata all'Edem Garden Restaurant",
+        "dish.pasticcio.title": "Pastitsio greco",
+        "dish.pasticcio.text": "Strati di pasta e ragù speziato, cotti al forno con una cremosa besciamella fino a doratura.",
+        "dish.pasticcio.alt": "Pastitsio tradizionale greco con strati di pasta, carne macinata e besciamella dorata all'Edem Garden Restaurant",
 
         "dish.salad.title": "Insalata greca",
         "dish.salad.text": "Pomodori, cetrioli, olive e feta, conditi semplicemente con olio d'oliva e origano.",
@@ -342,13 +342,13 @@ const translations = {
         "dish.mix.text": "Une généreuse assiette de nos spécialités maison: makarounes, tzatziki, salade grecque, légumes farcis et bien plus encore.",
         "dish.mix.alt": "Assiette mixte avec makarounes, tzatziki, salade grecque et légumes farcis",
 
-        "dish.mix.title": "Chevreau mijoté",
-        "dish.mix.text": "Tendre viande de chevreau, mijotée lentement avec des tomates, des oignons et des herbes aromatiques dans une savoureuse sauce grecque traditionnelle.",
-        "dish.mix.alt": "Chevreau mijoté à la grecque, servi dans une riche sauce tomate aux herbes aromatiques à l'Edem Garden Restaurant",
+        "dish.capretto.title": "Chevreau mijoté",
+        "dish.capretto.text": "Tendre viande de chevreau, mijotée lentement avec des tomates, des oignons et des herbes aromatiques dans une savoureuse sauce grecque traditionnelle.",
+        "dish.capretto.alt": "Chevreau mijoté à la grecque, servi dans une riche sauce tomate aux herbes aromatiques à l'Edem Garden Restaurant",
 
-        "dish.mix.title": "Pastitsio grec",
-        "dish.mix.text": "Des couches de pâtes et de viande hachée assaisonnée, gratinées au four sous une onctueuse béchamel dorée.",
-        "dish.mix.alt": "Pastitsio grec traditionnel composé de couches de pâtes, de viande hachée et de béchamel dorée à l'Edem Garden Restaurant",
+        "dish.pasticcio.title": "Pastitsio grec",
+        "dish.pasticcio.text": "Des couches de pâtes et de viande hachée assaisonnée, gratinées au four sous une onctueuse béchamel dorée.",
+        "dish.pasticcio.alt": "Pastitsio grec traditionnel composé de couches de pâtes, de viande hachée et de béchamel dorée à l'Edem Garden Restaurant",
 
         "dish.salad.title": "Salade grecque",
         "dish.salad.text": "Tomates mûres, concombre, olives et feta, assaisonnés simplement d'huile d'olive et d'origan.",
@@ -488,13 +488,13 @@ const translations = {
         "dish.mix.text": "Ένα πλούσιο πιάτο με τα σπιτικά μας αγαπημένα: μακαρούνες, τζατζίκι, χωριάτικη σαλάτα, γεμιστά λαχανικά και πολλά ακόμα.",
         "dish.mix.alt": "Ποικιλία με μακαρούνες, τζατζίκι, χωριάτικη σαλάτα και γεμιστά λαχανικά",
 
-        "dish.mix.title": "Κατσικάκι στιφάδο",
-        "dish.mix.text": "Τρυφερό κατσικάκι, σιγομαγειρεμένο με ντομάτες, κρεμμύδια και αρωματικά βότανα, σε μια πλούσια παραδοσιακή ελληνική σάλτσα.",
-        "dish.mix.alt": "Παραδοσιακό κατσικάκι στιφάδο με πλούσια σάλτσα ντομάτας και αρωματικά βότανα στο εστιατόριο Edem Garden",  
+        "dish.capretto.title": "Κατσικάκι στιφάδο",
+        "dish.capretto.text": "Τρυφερό κατσικάκι, σιγομαγειρεμένο με ντομάτες, κρεμμύδια και αρωματικά βότανα, σε μια πλούσια παραδοσιακή ελληνική σάλτσα.",
+        "dish.capretto.alt": "Παραδοσιακό κατσικάκι στιφάδο με πλούσια σάλτσα ντομάτας και αρωματικά βότανα στο εστιατόριο Edem Garden",  
 
-        "dish.mix.title": "Παστίτσιο",
-        "dish.mix.text": "Στρώσεις ζυμαρικών και αρωματικού κιμά, ψημένες στον φούρνο με κρεμώδη μπεσαμέλ μέχρι να ροδίσουν.",
-        "dish.mix.alt": "Παραδοσιακό ελληνικό παστίτσιο με στρώσεις ζυμαρικών, κιμά και χρυσαφένια μπεσαμέλ στο εστιατόριο Edem Garden",
+        "dish.pasticcio.title": "Παστίτσιο",
+        "dish.pasticcio.text": "Στρώσεις ζυμαρικών και αρωματικού κιμά, ψημένες στον φούρνο με κρεμώδη μπεσαμέλ μέχρι να ροδίσουν.",
+        "dish.pasticcio.alt": "Παραδοσιακό ελληνικό παστίτσιο με στρώσεις ζυμαρικών, κιμά και χρυσαφένια μπεσαμέλ στο εστιατόριο Edem Garden",
     
         "dish.salad.title": "Χωριάτικη σαλάτα",
         "dish.salad.text": "Ώριμες ντομάτες, αγγούρι, ελιές και φέτα, με ελαιόλαδο και ρίγανη.",
