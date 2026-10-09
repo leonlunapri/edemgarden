@@ -1187,3 +1187,24 @@ footer {
         transition: none;
     }
 }
+
+/* ========================================
+   CURTAIN REVEAL — INGRESSO
+   ======================================== */
+
+.curtain-reveal {
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.curtain-reveal.is-visible {
+    clip-path: inset(0 0 0 0);
+}
+
+/* Accessibilità */
+@media (prefers-reduced-motion: reduce) {
+    .curtain-reveal {
+        clip-path: none;
+        transition: none;
+    }
+}
