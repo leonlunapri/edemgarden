@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
+        window.edemAnimationsReady = true;
+
         document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
             var key = el.getAttribute("data-i18n-alt");
             if (dict[key] !== undefined) {
@@ -121,6 +123,8 @@ document.addEventListener("DOMContentLoaded", function () {
             threshold: 0.08,
             rootMargin: "0px 0px -30px 0px"
         });
+
+        window.edemRevealObserver = observer;
 
         revealElements.forEach(function(el) {
             el.classList.add("scroll-reveal");
