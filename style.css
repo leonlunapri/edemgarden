@@ -203,19 +203,19 @@ p {
 }
 
 .hero-content > :nth-child(2) {
-    animation-delay: 0.65s;
+    animation-delay: 0.51s;
 }
 
 .hero-content > :nth-child(3) {
-    animation-delay: 1s;
+    animation-delay: 0.72s;
 }
 
 .hero-content > :nth-child(4) {
-    animation-delay: 1.35s;
+    animation-delay: 0.93s;
 }
 
 .hero-content > :nth-child(5) {
-    animation-delay: 1.7s;
+    animation-delay: 1.14s;
 }
 
 /* Mobile */
