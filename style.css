@@ -151,10 +151,10 @@ p {
 
 @keyframes heroZoom {
     from {
-        transform: scale(1);
+        transform: scale(1.14);
     }
     to {
-        transform: scale(1.18);
+        transform: scale(1);
     }
 }
 
