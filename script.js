@@ -38,6 +38,36 @@ document.addEventListener("DOMContentLoaded", function () {
         } catch (e) {
             /* localStorage not available, ignore */
         }
+
+            // Riavvia le animazioni dopo il cambio lingua
+        if (window.edemAnimationsReady) {
+
+            // HERO: testi e pulsanti
+            document.querySelectorAll(".hero-content > *").forEach(function(el) {
+                el.style.animation = "none";
+                void el.offsetWidth;
+                el.style.animation = "";
+            });
+
+            // HERO: zoom dello sfondo
+            var hero = document.querySelector(".hero");
+            if (hero) {
+                hero.classList.remove("hero-restart");
+                void hero.offsetWidth;
+                hero.classList.add("hero-restart");
+            }
+
+            // Altre sezioni: ripristina le animazioni
+            document.querySelectorAll(".scroll-reveal").forEach(function(el) {
+                el.classList.remove("is-visible");
+            });
+
+            if (window.edemRevealObserver) {
+                document.querySelectorAll(".scroll-reveal").forEach(function(el) {
+                    window.edemRevealObserver.observe(el);
+                });
+            }
+        }
     }
 
     buttons.forEach(function (btn) {
