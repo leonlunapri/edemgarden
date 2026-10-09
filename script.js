@@ -42,7 +42,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     buttons.forEach(function (btn) {
         btn.addEventListener("click", function () {
-            setLanguage(btn.getAttribute("data-lang"));
+            var lang = btn.getAttribute("data-lang");
+    
+            try {
+                localStorage.setItem("edemGardenLang", lang);
+            } catch (e) {
+                // localStorage non disponibile
+            }
+    
+            window.location.reload();
         });
     });
 
