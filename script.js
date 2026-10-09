@@ -73,6 +73,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ".section h2, " +
         ".intro, " +
         ".image-section-content, " +
+        ".image-section-image img, " +
+        ".quote-section, " +
         ".food-card, " +
         ".dish-card, " +
         ".restaurant-photos img, " +
