@@ -77,7 +77,6 @@ const revealElements = document.querySelectorAll(
     ".dishes-subtitle, " +
     ".olympos-section h2, " +
     ".image-section-content, " +
-    ".image-section-image img, " +
     ".quote-section, " +
     ".food-card, " +
     ".dish-card, " +
@@ -96,16 +95,25 @@ const revealElements = document.querySelectorAll(
     ".social-content, " +
     ".social-award"
 );
+    
+// ---------- CURTAIN REVEAL: INGRESSO ----------
 
+const entranceImage = document.querySelector(
+    '.image-section-image img[src="images/ingresso-1.jpg"]'
+);
+
+if (entranceImage) {
+    entranceImage.classList.add("curtain-reveal");
+}
     if ("IntersectionObserver" in window &&
         !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
 
         const observer = new IntersectionObserver(function(entries) {
             entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("is-visible");
-                    observer.unobserve(entry.target);
-                }
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+            }
             });
         }, {
             threshold: 0.08,
@@ -116,6 +124,11 @@ const revealElements = document.querySelectorAll(
             el.classList.add("scroll-reveal");
             observer.observe(el);
         });
+        
+        // Osserva la fotografia dell'ingresso
+            if (entranceImage) {
+            observer.observe(entranceImage);
+            }
     }
 
 });
