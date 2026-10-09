@@ -506,23 +506,12 @@ p {
 
 .quote-section {
     min-height: 500px;
-
-    background-image:
-        linear-gradient(
-            rgba(45, 42, 38, 0.45),
-            rgba(45, 42, 38, 0.45)
-        ),
-        url("images/garden.jpg");
-
-    background-size: cover;
-    background-position: center;
-
+    position: relative;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     color: white;
 }
 
