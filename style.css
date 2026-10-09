@@ -1176,3 +1176,40 @@ footer {
         transition: none;
     }
 }
+
+/* ========================================
+   GARDEN — SLOW ZOOM
+   ======================================== */
+
+.quote-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        linear-gradient(rgba(45,42,38,.45), rgba(45,42,38,.45)),
+        url("images/garden.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    transform: scale(1);
+    transition: transform 8s ease-out;
+    z-index: 0;
+}
+
+.quote-section.is-visible::before {
+    transform: scale(1.08);
+}
+
+.quote-content {
+    position: relative;
+    z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .quote-section::before {
+        transform: none;
+        transition: none;
+    }
+}
