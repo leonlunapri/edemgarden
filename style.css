@@ -176,6 +176,66 @@ p {
     margin: 0 auto;
 }
 
+/* ---------- HERO CONTENT ANIMATIONS ---------- */
+
+@keyframes heroContentReveal {
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content > * {
+    opacity: 0;
+    animation: heroContentReveal 1.5s
+               cubic-bezier(0.22, 1, 0.36, 1)
+               forwards;
+}
+
+/* Comparsa progressiva */
+
+.hero-content > :nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.hero-content > :nth-child(2) {
+    animation-delay: 0.65s;
+}
+
+.hero-content > :nth-child(3) {
+    animation-delay: 1s;
+}
+
+.hero-content > :nth-child(4) {
+    animation-delay: 1.35s;
+}
+
+.hero-content > :nth-child(5) {
+    animation-delay: 1.7s;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .hero-content > * {
+        animation-duration: 1.3s;
+    }
+}
+
+/* Accessibilità */
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-content > * {
+        opacity: 1;
+        animation: none;
+        transform: none;
+    }
+}
+
 .hero h1 {
     margin-bottom: 25px;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
