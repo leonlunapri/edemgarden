@@ -69,23 +69,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // ---------- SCROLL ANIMATIONS ----------
 
-    const revealElements = document.querySelectorAll(
-        ".section h2, " +
-        ".intro, " +
-        ".image-section-content, " +
-        ".image-section-image img, " +
-        ".quote-section, " +
-        ".food-card, " +
-        ".dish-card, " +
-        ".restaurant-photos img, " +
-        ".mobile-float-photo, " +
-        ".visit-photo img, " +
-        ".lithos-photo img, " +
-        ".masonry-item, " +
-        ".olympos-gallery img, " +
-        ".social-content, " +
-        ".social-award"
-    );
+const revealElements = document.querySelectorAll(
+    ".section h2, " +
+    ".intro, " +
+    ".eyebrow:not(.hero .eyebrow):not(.image-section-content .eyebrow), " +
+    ".dishes-intro h3, " +
+    ".dishes-subtitle, " +
+    ".olympos-section h2, " +
+    ".image-section-content, " +
+    ".image-section-image img, " +
+    ".quote-section, " +
+    ".food-card, " +
+    ".dish-card, " +
+    ".restaurant-photos img, " +
+    ".mobile-float-photo, " +
+    ".visit-photo img, " +
+    ".visit-details > div, " +
+    ".visit-hours, " +
+    ".visit-text .action-buttons, " +
+    ".lithos-text > p:not(.intro):not(.eyebrow), " +
+    ".lithos-details > div, " +
+    ".lithos-text .action-buttons, " +
+    ".lithos-photo img, " +
+    ".masonry-item, " +
+    ".olympos-gallery img, " +
+    ".social-content, " +
+    ".social-award"
+);
 
     if ("IntersectionObserver" in window &&
         !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
