@@ -58,4 +58,44 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         setLanguage("en");
     }
+
+    // ---------- SCROLL ANIMATIONS ----------
+
+    const revealElements = document.querySelectorAll(
+        ".section h2, " +
+        ".intro, " +
+        ".image-section-content, " +
+        ".food-card, " +
+        ".dish-card, " +
+        ".restaurant-photos img, " +
+        ".mobile-float-photo, " +
+        ".visit-photo img, " +
+        ".lithos-photo img, " +
+        ".masonry-item, " +
+        ".olympos-gallery img, " +
+        ".social-content, " +
+        ".social-award"
+    );
+
+    if ("IntersectionObserver" in window &&
+        !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.08,
+            rootMargin: "0px 0px -30px 0px"
+        });
+
+        revealElements.forEach(function(el) {
+            el.classList.add("scroll-reveal");
+            observer.observe(el);
+        });
+    }
+
 });
